@@ -1,0 +1,1 @@
+Dieses Kapitel beschreibt die aktuellen Problemstellungen bei der Forschung mit Gesundheitsdaten. Dazu werden die vorhandenen Rahmenbedingungen aufgezeigt, ein Bedarf ermittelt sowie Lösungsvorschläge vorgestellt, die durch das Datenmodell HealthDCAT-AP.de und die Vorgehensweise des Vorhabens adressiert werden.
