@@ -1,3 +1,5 @@
+[Zurück zum Inhaltsverzeichnis](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1.html)
+# Aktualisierung fortlaufender Datensätze
 „PCS [Post-COVID-Syndrom] ist ein recht neues Phänomen, bei dem sich der wissenschaftliche Erkenntnisstand schnell ändert.“ [^77] Umso wichtiger ist, dass die fundierten Informationen, die die datenhaltenden Stellen (Forschungseinrichtung, Open Data, usw.) bereitstellen, permanent aktualisiert werden. Die hier verwendeten Lösungen bieten unterschiedliche Methoden für die Arbeit mit versionierten Daten an. Der Aufwand für die entsprechende Pilotierung einer neuen datenbereitstellenden Institution ist nur gering, da die minimale Beschreibung ohne großen Mehraufwand erstellt werden kann. Dies wurde im Kapitel 
 Erhaltene Datensätze am Beispiel der Daten von WIG2 und des FDZ Gesundheit mit Blick auf Stufe 2 der Challenge bereits skizziert.
 
