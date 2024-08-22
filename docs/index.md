@@ -1,8 +1,6 @@
 # HealthDCAT-AP.de
-## Quick Links zu Github
-[Home](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de)
 
-[Hier geht es direkt zum Bericht](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/report_stage_1)
+[Hier geht es direkt zum Bericht](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/docs/report_stage_1)
 
 [Hier geht es direkt zum Modell](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/model)
 
