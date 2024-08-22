@@ -2,8 +2,6 @@
 
 [Hier geht es direkt zum Bericht Stufe 1](/report_stage_1.md)
 
-[Hier geht es direkt zum Modell](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/model)
-
 
 
 ![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_HealthDCAT-AP.de.png?raw=true)
