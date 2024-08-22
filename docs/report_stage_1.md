@@ -43,7 +43,7 @@ Inhaltsverzeichnis
 ## [5.1 Vorgehen zur Akquise von Metadatensätzen](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.1_Vorgehen_zur_Akquise_von_Metadatensaetzen.md)
 ## [5.2 Erhaltene Datensätze](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2_Erhaltene_Datensaetze.md)
 ### [5.2.1 Forschungsdatenzentrum Gesundheit](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.1_Forschungsdatenzentrum_Gesundheit.md)
-### [5.2.2 Wissenschaftliches Institut für Gesundheitsökonomie und Gesundheitssystemforschung](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.2_Wissenschaftliches_Institut_fuer_Gesundheitsoekonomie_und_Gesdunheitssystemforschung.md)
+### [5.2.2 Wissenschaftliches Institut für Gesundheitsökonomie und Gesundheitssystemforschung](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.2_Wissenschaftliches_Institut_fuer_Gesundheitsoekonomie_und_Gesundheitssystemforschung.md)
 ### [5.2.3 Robert Koch-Institut](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.3_Robert_Koch-Institut.md)
 ### [5.2.4 Fimo Health App](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.4_Fimo_Health_App.md)
 ### [5.2.5 Leipziger Forschungszentrum für Zivilisationserkrankungen](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.5_Leipziger_Forschungszentrum_fuer_Zivilisationserkrankungen.md)
