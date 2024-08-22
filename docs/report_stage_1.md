@@ -39,7 +39,7 @@ Inhaltsverzeichnis
 ### [4.3.1 Strategie 1: gezielte Kontaktaufnahme und Vereinbarung von bilateralen Austauschterminen](/report_stage_1/4_Beteiligungskonzept/4.3.1_Strategie_1_gezielte_Kontaktaufnahme_und_Vereinbarung_von_bilateralen_Austauschterminen.md)
 ### [4.3.2 Strategie 2: Öffentlichkeitsarbeit und Beteiligungsverfahren](/report_stage_1/4_Beteiligungskonzept/4.3.2_Strategie_2_Oeffentlichkeitsarbeit_und_Beteiligungsverfahren.md)
 ### [4.3.3 Strategie 3: Konferenzteilnahmen](/report_stage_1/4_Beteiligungskonzept/4.3.3_Strategie_3_Konferenzteilnahmen.md)
-# Bereitstellung erster relevanter Datensätze
+# 5 Bereitstellung erster relevanter Datensätze
 ## [5.1 Vorgehen zur Akquise von Metadatensätzen](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.1_Vorgehen_zur_Akquise_von_Metadatensaetzen.md)
 ## [5.2 Erhaltene Datensätze](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2_Erhaltene_Datensaetze.md)
 ### [5.2.1 Forschungsdatenzentrum Gesundheit](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.1_Forschungsdatenzentrum_Gesundheit.md)
