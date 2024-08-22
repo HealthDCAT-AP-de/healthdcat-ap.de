@@ -1,10 +1,14 @@
 # HealthDCAT-AP.de
 ## Quick Links zu Github
-[Home](/readme.md)
+[Home](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de)
 
-[Hier geht es direkt zum Bericht](/report_stage_1/)
+[Hier geht es direkt zum Bericht](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/report_stage_1)
 
-[Hier geht es direkt zum Modell](/model/)
+[Hier geht es direkt zum Modell](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/model)
+
+
+
+![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_HealthDCAT-AP.de.png?raw=true)
 
 
 HealthDCAT-AP.de ist ein Projekt im Rahmen der Post-COVID-Challenge anlässlich der Gründung des Dateninstitutes des Bundes. Aktuell befinden wir uns mit dem Projekt in Stufe 1 der Challenge.
