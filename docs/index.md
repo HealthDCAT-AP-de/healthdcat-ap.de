@@ -1,9 +1,12 @@
-# Quick Links zu GitHub
+# HealthDCAT-AP.de
+## Quick Links zu Github
 [Home](/readme.md)
+
 [Hier geht es direkt zum Bericht](/report_stage_1/)
+
 [Hier geht es direkt zum Modell](/model/)
 
-# HealthDCAT-AP.de
+
 HealthDCAT-AP.de ist ein Projekt im Rahmen der Post-COVID-Challenge anlässlich der Gründung des Dateninstitutes des Bundes. Aktuell befinden wir uns mit dem Projekt in Stufe 1 der Challenge.
 Das Projekt erprobt einen innovativen Semantic-Web-Ansatz, um Metadaten aus verschiedenen Quellenim Gesundheitsbereich innerhalb eines Standards zusammenzuführen und interaktive Abfragen zu ermöglichen.
 
