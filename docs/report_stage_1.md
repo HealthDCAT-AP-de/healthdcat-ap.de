@@ -41,7 +41,7 @@ Inhaltsverzeichnis
 ### [4.3.3 Strategie 3: Konferenzteilnahmen](/report_stage_1/4_Beteiligungskonzept/4.3.3_Strategie_3_Konferenzteilnahmen.md)
 # 5 Bereitstellung erster relevanter Datensätze
 ## [5.1 Vorgehen zur Akquise von Metadatensätzen](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.1_Vorgehen_zur_Akquise_von_Metadatensaetzen.md)
-## [5.2 Erhaltene Datensätze](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2_Erhaltene_Datensaetze.md)
+## [5.2 Vereinbarte Metadaten-Nutzung](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2_Vereinbarte_Metadaten-Nutzung.md)
 ### [5.2.1 Forschungsdatenzentrum Gesundheit](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.1_Forschungsdatenzentrum_Gesundheit.md)
 ### [5.2.2 Wissenschaftliches Institut für Gesundheitsökonomie und Gesundheitssystemforschung](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.2_Wissenschaftliches_Institut_fuer_Gesundheitsoekonomie_und_Gesundheitssystemforschung.md)
 ### [5.2.3 Robert Koch-Institut](/report_stage_1/5_Bereitstellung_erster_relevanter_Datensaetze/5.2.3_Robert_Koch-Institut.md)
