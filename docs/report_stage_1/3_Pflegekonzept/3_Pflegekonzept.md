@@ -1,4 +1,6 @@
 [Zurück zum Inhaltsverzeichnis](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1.html)
+
+[vorheriges Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/2_Ausrichtung_des_Datenmodells_an_den_Anforderungen_der_Forschung/2.7_Self-Assessment_HealthDCAT-AP.de_nach_Common_Assessment_Method_for_Standards_and_Specifications.html)
 # Pflegekonzept
 Teil von Stufe 1 war die Erprobung eines Software-Stacks, der insbesondere die Weiterentwicklung und Zugänglichkeit des Modells in den nächsten Phasen sicherstellen soll. Grundsätzlich ist hierbei ein Open-Source-Ansatz zu bevorzugen. Es stellt eine Herausforderung dar, dass eine Full-Stack-Open-Source-Lösung nicht in der in Stufe 1 zur Verfügung stehenden Zeit einzurichten und nutzbar ist. Tools wie beispielsweise VocBench dienen primär der Pflege eines zugrundeliegenden Vokabulares. Der vollumfängliche mögliche Funktionsumfang wie etwa das Visualisieren von Instanzdaten und deren Validierung gegen das Modell werden somit in Stufe 2 erprobt und dokumentiert. Grundsätzlich sei jedoch an dieser Stelle erwähnt, dass der Ansatz des Vorhabens technologieneutral ist und somit ein Vendor Lock-In kein Risiko darstellt.
 Das Pflegekonzept sieht vor diesem Hintergrund folgenden Ansatz vor:
@@ -25,5 +27,7 @@ Mit jedem Release werden alle veröffentlichten Dateien erneut zur Verfügung ge
 
 Die Pflege betrifft zum einen das Modell, auf dem der Graph basiert, zum anderen den Wissensgraphen selbst. Bei der Pflege des Modells muss eine enge Abstimmung mit dem europäischen Vorhaben HealthDCAT-AP erfolgen, um etwaige Weiterentwicklungen verzögerungsfrei aufnehmen zu können. Dies ist für die Anschlussfähigkeit des Standards und damit die Interoperabilität erforderlich. Es wird sich daher an den Releasebedarf und die Change Requests des europäischen Vorhabens angekoppelt.
 Der Wissensgraph selbst wird fortlaufend weiterentwickelt und bietet die Möglichkeit, die Metadaten konkreter Datensätze zu beschreiben und zu verknüpfen. In diesen Themenbereich fällt ab Stufe 2 ebenfalls die Entwicklung geeigneter SPARQL-Abfragen.
+
+[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/4_Beteiligungskonzept/4_Beteiligungskonzept.html)
 
 [^57]: NOOTS (opencode.de)
