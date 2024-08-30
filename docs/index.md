@@ -8,7 +8,7 @@
 
 
 HealthDCAT-AP.de ist ein Projekt im Rahmen der Post-COVID-Challenge anlässlich der Gründung des Dateninstitutes des Bundes. Aktuell befinden wir uns mit dem Projekt in Stufe 1 der Challenge.
-Das Projekt erprobt einen innovativen Semantic-Web-Ansatz, um Metadaten aus verschiedenen Quellenim Gesundheitsbereich innerhalb eines Standards zusammenzuführen und interaktive Abfragen zu ermöglichen.
+Das Projekt erprobt einen innovativen Semantic-Web-Ansatz, um Metadaten aus verschiedenen Quellen im Gesundheitsbereich innerhalb eines Standards zusammenzuführen und interaktive Abfragen zu ermöglichen.
 
 Die Erforschung des Post-COVID-Syndroms, also Beschwerden, die mindestens zwölf Wochen oder länger nach der akuten COVID-Infektion vorliegen, ist von hoher gesellschaftlicher Relevanz. Analog zu ME/CFS (Myalgische Enzephalomyelitis/Chronisches Fatigue-Syndrom) ist die Forschung durch heterogene und zugleich oft diffuse Symptome erschwert. Das Fehlen gepflegter Datensätze und insbesondere gepflegter Metadatensätze, die eine Verknüpfung zwischen den einzelnen Datensätzen und somit auch Verknüpfungen zwischen Risikofaktoren und Symptomen erlauben, stellt ein weiteres Hindernis für die Auswertung der Daten dar. Da die Daten aus verschiedenen medzinischen Fachbereichen und weiteren Quellen kommen, unterstützt der Semantic-Web-Ansatz insbesondere die Nutzung der FAIR-Prinzipien (Findable, Accessible, Interoperable, Re-usable).
 
