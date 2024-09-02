@@ -4,7 +4,7 @@
 
 
 
-![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_HealthDCAT-AP.de.png?raw=true)
+![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_small.png?raw=true)
 
 
 HealthDCAT-AP.de ist ein Projekt im Rahmen der Post-COVID-Challenge anlässlich der Gründung des Dateninstitutes des Bundes. Aktuell befinden wir uns mit dem Projekt in Stufe 1 der Challenge.
