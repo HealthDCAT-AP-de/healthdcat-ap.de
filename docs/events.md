@@ -7,7 +7,7 @@ In Stufe 2 der [Post-COVID-Challenge](https://www.bmi.bund.de/DE/themen/it-und-d
 
 ## Workshop für datenhaltende Stellen
 
-Hier möchten wir die Zusammenarbeit mit datenhaltenden Stellen weiter intensivieren und möchten daher herzleich einladen zu einem
+Hier möchten wir die Zusammenarbeit mit datenhaltenden Stellen weiter intensivieren und möchten daher herzlich einladen zu einem
 
 **Workshop für datenhaltende Stellen am 14. November 2024 von 10-12h.**
 
