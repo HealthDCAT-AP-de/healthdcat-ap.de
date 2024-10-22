@@ -4,7 +4,7 @@
 
 
 
-## Workshops für datenhaltende Stellen
+## Workshops zur Datennutzung
 
 Wir von HealthDCAT-AP.de möchten die Zusammenarbeit mit datenhaltenden Stellen initiieren und laden daher herzlich zu der
 
@@ -16,7 +16,7 @@ für datenhaltende Stellen ein.
 
 ## Workshops zu HealthDCAT-AP.de
 
-[Zum nächsten Workshop](/events/V1.0/2024-11-28_WS1-Kickoff.md)
+[Zum nächsten Workshop](/events/standardisierung/2024-11-28_WS1-Kickoff)
 
 Wir von HealthDCAT-AP.de laden zu der
 
