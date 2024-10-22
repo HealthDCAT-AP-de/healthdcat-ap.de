@@ -16,7 +16,7 @@ für datenhaltende Stellen ein.
 
 ## Workshops zu HealthDCAT-AP.de
 
-[Zum nächsten Workshop](/events/standardisierung/2024-11-28_WS1-Kickoff)
+[Zum nächsten Workshop](/events/standardisierung/2024-11-28_WS1-Kickoff.md)
 
 Wir von HealthDCAT-AP.de laden zu der
 
