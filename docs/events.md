@@ -4,13 +4,16 @@
 
 
 
-## Workshops zur Datennutzung
+## Workshops zur Datennutzung in der Post-COVID-Forschung
 
-Wir von HealthDCAT-AP.de möchten die Zusammenarbeit mit datenhaltenden Stellen initiieren und laden daher herzlich zu der
+[Zum nächsten Workshop](/events/datennutzung/2024-11-14_WS1-Kickoff.md)
 
-**virtuellen aufgezeichneten Auftaktveranstaltung am Donnerstag, 14. November 2024 von 10:00-12:00 Uhr.**
+Wir von HealthDCAT-AP.de laden zu der
 
-für datenhaltende Stellen ein.
+**virtuellen Auftaktveranstaltung am Donnerstag, 14. November 2024 von 10:00 bis 12:00 Uhr**
+
+der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* ein. Die Veranstaltung wird teilweise aufgezeichnet.
+
 
 
 
