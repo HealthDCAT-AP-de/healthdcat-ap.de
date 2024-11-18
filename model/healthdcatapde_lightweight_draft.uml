@@ -36,7 +36,7 @@ class "dcat:Catalog" <<mandatory>> {
 '@ _:internalLink  = #klasse-katalog
 '@ rdf:about       = http://www.w3.org/ns/dcat#Catalog
 '@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Catalog
-'@ rdfs:comment    = Eine Sammlung oder Quelle, welche die beschriebenen Datens‰tze, Datenservices oder Kataloge zur Verf¸gung stellt.
+'@ rdfs:comment    = Eine Sammlung oder Quelle, welche die beschriebenen Datens√§tze, Datenservices oder Kataloge zur Verf√ºgung stellt.
 '@ _:usedBy        = dcat:catalog, dct:hasPart, dct:isPartOf (dcat:Catalog)
 '@ rdfs:subClassOf = dcat:Dataset
 '@ _:datasetHeirloom = [`adms:identifier`](#datensatz-andere-id), [`adms:sample`](#datensatz-beispieldistribution), [`adms:versionNotes`](#datensatz-versionserlauterung), [`dcat:contactPoint`](#datensatz-kontakt), [`dcat:distribution`](#datensatz-distribution), [`dcat:granularity`](#datensatz-abgedeckte-zeitliche-granularitat-deprecated), [`dcat:keyword`](#datensatz-schlagwort), [`dcat:landingPage`](#datensatz-ursprungliche-webseite), [`dcat:qualifiedRelation`](#datensatz-qualifizierte-beziehung), [`dcat:spatialResolutionInMeters`](#datensatz-raumliche-auflosung-in-meter), [`dcat:temporalResolution`](#datensatz-zeitliche-auflosung), [`dcat:theme`](#datensatz-kategorie), [`dcatde:contributorID`](#datensatz-datenbereitsteller-id), [`dcatde:geocodingDescription`](#datensatz-beschreibung-abdeckung), [`dcatde:legalBasis`](#datensatz-rechtsgrundlage-zugangseroffnung), [`dcatde:maintainer`](#datensatz-verwalter), [`dcatde:originator`](#datensatz-urheber), [`dcatde:politicalGeocodingLevelURI`](#datensatz-ebene-geopolitischen-abdeckung), [`dcatde:politicalGeocodingURI`](#datensatz-geopolitischen-abdeckung), [`dcatde:qualityProcessURI`](#datensatz-qualitatssicherungsprozess), [`dct:accessRights`](#datensatz-grad-zuganglichkeit), [`dct:accrualPeriodicity`](#datensatz-aktualisierungsfrequenz), [`dct:conformsTo`](#datensatz-konform-zu-standard), [`dct:contributor`](#datensatz-bearbeiter), [`dct:hasVersion`](#datensatz-weitere-version), [`dct:identifier`](#datensatz-id), [`dct:isReferencedBy`](#datensatz-wird-referenziert), [`dct:isVersionOf`](#datensatz-ist-version), [`dct:provenance`](#datensatz-provenienz), [`dct:references`](#datensatz-referenziert), [`dct:relation`](#datensatz-verwandte-ressource), [`dct:source`](#datensatz-quelle), [`dct:temporal`](#datensatz-zeitliche-abdeckung), [`dct:type`](#datensatz-typ), [`foaf:page`](#datensatz-dokumentation), [`owl:versionInfo`](#datensatz-versionsbezeichnung), [`prov:qualifiedAttribution`](#datensatz-rollenzuordnung) und [`prov:wasGeneratedBy`](#datensatz-wurde-erzeugt-von).
@@ -113,7 +113,7 @@ class "dcat:Dataset" <<mandatory>> {
 '@ _:internalLink  = #klasse-datensatz
 '@ rdf:about       = http://www.w3.org/ns/dcat#Dataset
 '@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset
-'@ rdfs:comment    = Eine logische Entit‰t, welche die verˆffentlichten Informationen repr‰sentiert.
+'@ rdfs:comment    = Eine logische Entit√§t, welche die ver√∂ffentlichten Informationen repr√§sentiert.
 '@ _:usedBy        = dcat:dataset (dcat:Catalog), dct:hasVersion, dct:isVersionOf, dct:source, (dcat:Dataset), dcat:servesDataset (dcat:DataService), foaf:primaryTopic (dcat:CatalogRecord)
 '@ _:resourceHeirloom = [`dct:license`](#distribution-lizenz), [`dct:rights`](#distribution-grad-zuganglichkeit) und [`odrl:hasPolicy`](#distribution-regelwerk).
 '@ rdfs:subClassOf = dcat:Resource
@@ -191,7 +191,7 @@ class "dcat:Distribution" <<mandatory>> {
 '@ _:internalLink  = #klasse-distribution
 '@ rdf:about       = http://www.w3.org/ns/dcat#Distribution
 '@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Distribution
-'@ rdfs:comment    = Eine physische Verkˆrperung/Repr‰sentanz des Datensatzes in einem spezifischen Format.
+'@ rdfs:comment    = Eine physische Verk√∂rperung/Repr√§sentanz des Datensatzes in einem spezifischen Format.
 '@ _:usedBy        = dcat:distribution, adms:sample (dcat:Distribution)
 
 @enduml
