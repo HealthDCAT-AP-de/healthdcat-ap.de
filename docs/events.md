@@ -20,12 +20,6 @@ Wir von HealthDCAT-AP.de laden zu der
 
 der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* ein. Die Veranstaltung wird teilweise aufgezeichnet.
 
-Hier finden Sie die Aufzeichnung des workshops vom 14.11.2024:
-
-<video controls>
-  <source src="https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/Datennutzung%20in%20der%20Post-COVID-Forschung%20-%20Bessere%20Auffindbarkeit%20von%20Forschungsprojekten%20durch%20standardisierte%20-20241114%201104-1_keynote_2_final.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Workshops zu HealthDCAT-AP.de
 
