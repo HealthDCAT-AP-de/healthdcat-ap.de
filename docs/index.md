@@ -8,6 +8,7 @@
 
 ![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_small.png?raw=true)
 
+https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/Datennutzung%20in%20der%20Post-COVID-Forschung%20-%20Bessere%20Auffindbarkeit%20von%20Forschungsprojekten%20durch%20standardisierte%20-20241114%201104-1_keynote_2_final.mp4
 
 HealthDCAT-AP.de ist ein Vorhaben im Rahmen der Post-COVID-Challenge anlässlich der Gründung des Dateninstitutes des Bundes. Aktuell befinden wir uns in Stufe 2 der Challenge.
 Das Vorhaben erprobt einen innovativen Semantic-Web-Ansatz, um Metadaten aus verschiedenen Quellen im Gesundheitsbereich innerhalb eines Standards zusammenzuführen und interaktive Abfragen zu ermöglichen.
