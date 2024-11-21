@@ -1,0 +1,363 @@
+@startuml
+
+remove @unlinked
+
+hide class circle
+' hide fields
+
+skinparam ClassBackgroundColor #C1C0C5|FDFEFD 
+skinparam ClassBorderColor black
+skinparam ArrowColor black
+skinparam BorderColor black 
+skinparam linetype ortho
+
+
+class "dcat:Resource"
+
+"dcat:Catalog"     --|> "dcat:Dataset"
+"dcat:Dataset"     --|> "dcat:Resource"
+"dcat:DataService" --|> "dcat:Resource"
+
+
+class "dcat:Catalog" <<mandatory>> {
+    <<mandatory>> dcatap:applicableLegislation ~> rdfs:Resource [1..*]
+    <<mandatory>> dct:description ~> rdfs:Literal [1..*]
+    <<mandatory>> dct:title ~> rdfs:Literal [1..*]
+
+    <<recommended>> dct:issued ~> rdfs:Literal [0..1]
+    <<recommended>> dct:language ~> dct:LinguisticSystem [*]
+    <<recommended>> dct:license ~> dct:LicenseDocument [0..1]
+    <<recommended>> dct:modified ~> rdfs:Literal [0..1]
+    <<recommended>> foaf:homepage ~> foaf:Document [0..1]
+
+    <<optional>> dct:rights ~> dct:RightsStatement [0..1]
+}
+'@ rdfs:label      = Katalog
+'@ rdf:about       = http://www.w3.org/ns/dcat#Catalog
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Catalog
+'@ rdfs:comment    = Eine Sammlung oder Quelle, welche die beschriebenen Datens�tze, Datenservices oder Kataloge zur Verf�gung stellt.
+
+"dcat:Catalog" --> "*"          "dcat:Catalog"       : <<optional>> dct:hasPart
+"dcat:Catalog" --> "*"          "dcat:Catalog"       : <<optional>> dct:isPartOf
+"dcat:Catalog" --> "*"          "dcat:Catalog"       : <<optional>> dcat:catalog
+"dcat:Catalog" --> "*"  "dcat:Dataset"       : <<recommended>> dcat:dataset
+"dcat:Catalog" --> "*" "dcat:DataService" : <<recommended>> dcat:service
+"dcat:Catalog" --> "*" "dct:Location"     : <<recommended>> dct:spatial
+"dcat:Catalog" --> "*"     "dcat:CatalogRecord" : <<recommended>> dcat:record
+"dcat:Catalog" --> "1"     "foaf:Agent"         : <<mandatory>> dct:publisher
+"dcat:Catalog" --> "*"     "foaf:Agent"         : <<optional>> dct:creator
+"dcat:Catalog" --> "*"     "dct:PeriodOfTime"         : <<optional>> dct:temporal
+"dcat:Catalog" --> "*" "skos:ConceptScheme"     : <<recommended>> dcat:themeTaxonomy
+
+
+class "dcat:Dataset" <<mandatory>> { 
+    <<mandatory>> dcatap:applicableLegislation ~> rdfs:Resource [1..*]
+    <<mandatory>> dct:accessRights ~> dct:RightsStatement [1]
+    <<mandatory>> dct:description ~> rdfs:Literal [1..*]
+    <<mandatory>> dct:identifier ~> rdfs:Literal [1..*]
+    <<mandatory>> dct:provenance ~> dct:ProvenanceStatement [1..*]
+    <<mandatory>> dct:title ~> rdfs:Literal [1..*]
+    <<mandatory>> dqv:hasQualityAnnotation ~> dqv:QualityCertificate [1..*]
+    + <<mandatory>> healthdcatap:hasPersonalData ~> dpv:personalData [1..*]
+    <<mandatory>> healthdcatap:maxTypicalAge ~> xsd:nonNegativeInteger [1]
+    <<mandatory>> healthdcatap:minTypicalAge ~> xsd:nonNegativeInteger [1]
+    <<mandatory>> healthdcatap:numberOfRecords ~> xsd:nonNegativeInteger [1]
+    <<mandatory>> healthdcatap:numberOfUniqueIndividuals ~> xsd:nonNegativeInteger [1]
+    <<mandatory>> healthdcatap:populationCoverage ~> rdfs:Literal [1..*]
+
+    <<recommended>> dcat:contactPoint ~> vcard:Kind [*]
+    <<recommended>> dcat:keyword ~> rdfs:Literal [*]
+    + <<recommended>> dpv:hasLegalBasis ~> dpv:LegalBasis [*]
+    + <<recommended>> dpv:hasPurpose ~> dpv:Purpose [*]
+    <<recommended>> healthdcatap:publisherNote ~> rdfs:Literal [0..1]
+   
+    <<optional>> adms:versionNotes ~> rdfs:Literal [*]
+    <<optional>> dcat:landingPage ~> foaf:Document [*]
+    <<optional>> dcat:spatialResolutionInMeters ~> rdfs:Literal [0..1]
+    <<optional>> dcat:temporalResolution ~> rdfs:Literal [0..1]
+    + <<optional>> dcatde:geocodingDescription ~> rdfs:Resource [*]
+    + <<optional>> dcatde:politicalGeocodingLevelURI ~> rdfs:Resource [*]
+    + <<optional>> dcatde:politicalGeocodingURI ~> rdfs:Resource [*]
+    + <<optional>> dcatde:qualityProcessURI ~> rdfs:Resource [0..1]
+    <<optional>> dct:accrualPeriodicity ~> dct:Frequency [0..1]
+    <<optional>> dct:alternative ~> rdfs:Literal [0..1]
+    <<optional>> dct:conformsTo ~> dct:Standard [*]
+    <<optional>> dcat:inSeries ~> dcat:DataSeries [*]
+    <<optional>> dct:isReferencedBy ~> rdfs:Resource [*]
+    <<optional>> dct:issued ~> rdfs:Literal [0..1]
+    <<optional>> dct:language ~> dct:LinguisticSystem [*]
+    <<optional>> dct:modified ~> rdfs:Literal [0..1]
+    <<optional>> dct:relation ~> rdfs:Resource [*]
+    <<optional>> foaf:page ~> foaf:Document [*]
+    <<optional>> owl:versionInfo ~> rdfs:Literal [0..1]
+    <<optional>> prov:wasGeneratedBy ~> prov:Activity [*]
+    <<optional>> healthdcatap:hasCodingSystem ~> dct:Standard [*]
+}   
+'@ rdfs:label      = Datensatz
+'@ rdf:about       = http://www.w3.org/ns/dcat#Dataset
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset
+'@ rdfs:comment    = Eine logische Entit�t, welche die ver�ffentlichten Informationen repr�sentiert.
+
+"dcat:Dataset" --> "1..*"  "skos:Concept"  : <<mandatory>> dcat:theme
+"dcat:Dataset" --> "1"  "skos:Concept"  : <<mandatory>> dct:type
+"dcat:Dataset" --> "1..*"  "skos:Concept"  : <<mandatory>> healthdcatap:healthCategory
+"dcat:Dataset" --> "*"  "skos:Concept"  : <<recommended>> healthdcatap:healthTheme
+"dcat:Dataset" --> "*"  "skos:Concept"  : <<recommended>> healthdcatap:hasCodeValues
+"dcat:Dataset" --> "0..1"  "skos:Concept"  : <<recommended>> healthdcatap:publisherType
+"dcat:Dataset" --> "*"     "cr:RecordSet"       : <<recommended>> cr:recordSet
+"dcat:Dataset" --> "1..*"  "cr:FileObject"      : <<mandatory>> cr:distribution
+"dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:source
+"dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:hasVersion
+"dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:isVersionOf
+"dcat:Dataset" --> "*"     "dcat:Distribution"  : <<recommended>> healthdcatap:analytics
+"dcat:Dataset" --> "1..*"  "dcat:Distribution"  : <<mandatory>> adms:sample
+"dcat:Dataset" --> "1..*"  "dcat:Distribution"  : <<mandatory>> dcat:distribution
+"dcat:Dataset" --> "1..*" "dct:Location"     : <<mandatory>> dct:spatial
+"dcat:Dataset" --> "*" "dct:PeriodOfTime" : <<recommended>> dct:temporal
+"dcat:Dataset" --> "1"  "foaf:Agent"         : <<mandatory>> dct:publisher
+"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dct:creator
+"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dct:contributor
+"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dcatde:originator
+"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dcatde:maintainer
+"dcat:Dataset" --> "0..1"     "dct:PeriodOfTime"         : <<optional>> healthdcatap:retentionPeriod
+"dcat:Dataset" --> "1"     "foaf:Agent"         : <<mandatory>> healthdcatap:hdab
+"dcat:Dataset" --> "*"     "adms:Identifier"         : <<optional>> adms:identifier
+"dcat:Dataset" --> "*"     "dcat:Relationship"         : <<optional>> dcat:qualifiedRelation
+"dcat:Dataset" --> "*"     "prov:Attribution"         : <<optional>> prov:qualifiedAttribution
+
+
+class "cr:FileObject" <<mandatory>> #TECHNOLOGY {
+    + <<mandatory>> dct:description ~> rdfs:Literal [1..*]
+    <<mandatory>> sc:name ~> rdfs:Literal [1]
+    
+    <<optional>> sc:contentSize ~> rdfs:Literal [0..1]
+    <<optional>> sc:contentURL ~> rdfs:Literal [0..1]
+    <<optional>> sc:encodingFormat ~> rdfs:Literal [0..1]
+    <<optional>> sc:sameAs ~> rdfs:Literal [*]
+    <<optional>> sc:sha256 ~> rdfs:Literal [0..1]
+}
+"cr:FileObject" --> "0..*"     "cr:FileObject"  : <<optional>> cr:containedIn
+
+class "cr:RecordSet" <<recommended>> #TECHNOLOGY {
+    + <<mandatory>> dct:description ~> rdfs:Literal [1..*]
+    <<mandatory>> cr:key ~> rdfs:Literal [1..*]
+    
+    <<optional>> cr:data ~> rdfs:Literal [*]
+    <<optional>> sc:examples ~> rdfs:Literal [*]
+}
+"cr:RecordSet" --> "1..*"     "cr:Field"  : <<mandatory>> cr:field
+
+
+class "cr:Field" <<recommended>> #TECHNOLOGY {
+    <<mandatory>> cr:dataType ~> rdfs:Literal [1..*]
+    <<mandatory>> cr:source ~> rdfs:Literal [1..*]
+    + <<mandatory>> dct:description ~> rdfs:Literal [1..*]
+
+    <<recommended>> cr:references ~> rdfs:Literal [*]
+}
+"cr:Field" --> "*"     "cr:Field"       : <<optional>> cr:subField
+"cr:Field" --> "*"     "cr:Field"       : <<optional>> cr:parentField
+
+
+class "dcat:Distribution" <<mandatory>> {
+    <<mandatory>> dcat:byteSize ~> rdfs:Literal [1]
+    <<mandatory>> dcat:accessURL ~> rdfs:Resource [1..*]
+    <<mandatory>> dcatap:applicableLegislation ~> rdfs:Resource [1..*]
+    <<mandatory>> dct:format ~> dct:MediaType [1]
+    <<mandatory>> dct:rights ~> dct:RightsStatement [1]
+    
+    <<recommended>> dct:license ~> dct:LicenseDocument [0..1] 
+
+    <<optional>> dcat:compressFormat ~> dct:MediaType [0..1]
+    <<optional>> dcat:downloadURL ~> rdfs:Resource [*]
+    <<optional>> dcat:mediaType ~> dct:MediaType [0..1]
+    <<optional>> dcat:packageFormat ~> dct:MediaType [0..1]
+    <<optional>> dct:conformsTo ~> dct:Standard [*]
+    <<optional>> dct:description ~> rdfs:Literal [*]
+    <<optional>> dct:issued ~> rdfs:Literal [0..1]
+    <<optional>> dct:language ~> dct:LinguisticSystem [*]
+    <<optional>> dct:modified ~> rdfs:Literal [0..1]
+    <<optional>> dct:title ~> rdfs:Literal [*]
+    <<optional>> foaf:page ~> foaf:Document [*]
+    <<optional>> odrl:hasPolicy ~> odrl:Policy [0..1]
+}
+'@ rdfs:label      = Distribution
+'@ rdf:about       = http://www.w3.org/ns/dcat#Distribution
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Distribution
+'@ rdfs:comment    = Eine physische Verk�rperung/Repr�sentanz des Datensatzes in einem spezifischen Format.
+
+"dcat:Distribution"    --> "*" "dcat:DataService"  : <<optional>> dcat:accessService
+"dcat:Distribution"    --> "0..1"  "spdx:Checksum" : <<optional>> spdx:checksum
+"dcat:Distribution"    --> "0..1"  "skos:Concept" : <<optional>> adms:status
+"dcat:Distribution"    --> "0..1"  "skos:Concept" : <<optional>> dcatap:availability
+
+
+
+class "dcat:DataService" <<optional>> {
+    <<mandatory>> dcat:endpointURL ~> rdfs:Resource [1..*]
+    <<mandatory>> dct:title ~> rdfs:Literal [1..*]
+    <<mandatory>> dcatap:applicableLegislation ~> rdfs:Resource [1..*]
+
+    <<recommended>> dcat:contactPoint ~> vcard:Kind [*]
+    <<recommended>> dcat:endpointDescription ~> rdfs:Resource [*]
+    <<recommended>> dcat:keyword ~> rdfs:Literal [*]
+    <<recommended>> dcat:theme ~> dct:subject [*]
+    <<recommended>> dct:conformsTo ~> dct:Standard [*]
+    
+    <<optional>> dcat:landingPage ~> foaf:Document [*]
+    <<optional>> dct:accessRights ~> dct:RightsStatement [0..1]
+    <<optional>> dct:description ~> rdfs:Literal [*]
+    <<optional>> dct:format ~> dct:MediaType [*]
+    <<optional>> dct:license ~> dct:LicenseDocument [0..1]
+}
+'@ rdfs:label      = Datenservice
+'@ rdf:about       = http://www.w3.org/ns/dcat#DataService
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Data_Service
+'@ rdfs:comment    = Ein Datenservice erm�glicht den Zugang zu einem oder mehreren Datens�tzen oder stellt Datenverarbeitungsverfahren zur Verf�gung.
+'@ rdfs:comment    = **Verwendungshinweis:** DCAT-AP.de empfiehlt zus�tzlich die folgenden Eigenschaften zu verwenden, um den Datenservice genauer zu beschreiben: 
+'@ rdfs:comment    = [`dct:spatial`](#datensatz-raumliche-abdeckung), [`dct:temporal`](#datensatz-zeitliche-abdeckung), [`dcat:spatialResolutionInMeters`](#datensatz-raumliche-auflosung-in-meter), [`dcat:temporalResolution`](#datensatz-zeitliche-auflosung), [`dct:accrualPeriodicity`](#datensatz-aktualisierungsfrequenz) und [`prov:wasGeneratedBy`](#datensatz-wurde-erzeugt-von).
+'@ rdfs:comment    = Diese �nderungen werden zur Zeit auf Ebene des W3Cs diskutiert und das weitere Vorgehen von der Entscheidung des W3C und von DCAT-AP abh�ngig gemacht.
+'@ rdfs:comment    = Die Verwendung wird im [Konventionenhandbuch](https://www.dcat-ap.de/def/dcatde/2.0/implRules/#modellierung-eines-datenservices) genauer beschrieben.
+
+"dcat:DataService" --> "*" "dcat:Dataset"     : <<recommended>> dcat:servesDataset
+"dcat:DataService" --> "*"  "foaf:Agent"      : <<recommended>> dct:publisher
+"dcat:DataService" --> "0..1"  "skos:Concept"      : <<recommended>> dcatap:availability
+
+
+class "dct:PeriodOfTime" <<recommended>> {
+    <<recommended>> dcat:endDate ~> rdfs:Literal [0..1]
+    <<recommended>> dcat:startDate ~> rdfs:Literal [0..1]
+
+    <<optional>> schema:endDate ~> rdfs:Literal [0..1]
+    <<optional>> schema:startDate ~> rdfs:Literal [0..1]
+    <<optional>> time:hasBeginning ~> time:Instant [0..1]
+    <<optional>> time:hasEnd ~> time:Instant [0..1]  
+}
+'@ rdfs:label        = Zeitraum
+'@ rdf:about         = http://purl.org/dc/terms/PeriodOfTime
+'@ rdfs:seeAlso      = https://www.w3.org/TR/vocab-dcat-2/#Class:Period_of_Time
+'@ rdfs:comment      = Ein Zeitintervall, welches durch Start- und Endzeitpunkt bezeichnet bzw. definiert ist.
+'@ rdfs:comment      = Das Zeitintervall kann auch offen sein, dann hat es lediglich einen Start- oder Endzeitpunkt.
+'@ rdfs:comment      = Die Verwendung wird im [Konventionenhandbuch](https://www.dcat-ap.de/def/dcatde/2.0/spec/#datensatz-zeitliche-abdeckung) genauer beschrieben.
+
+
+class "dct:Location" <<optional>> {
+    <<recommended>> dcat:bbox ~> rdfs:Resource [0..1]
+    <<recommended>> dcat:centroid ~> rdfs:Literal [0..1]
+
+    <<optional>> locn:geometry ~> rdfs:Literal [0..1]
+}
+'@ rdfs:label      = Standort
+'@ rdf:about       = http://purl.org/dc/terms/Location
+'@ rdfs:seeAlso    = https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/Location/
+'@ rdfs:comment    = Ein r�umlicher Bereich oder ein bezeichneter Ort. Er kann durch ein kontrolliertes Vokabular oder mit geographischen Koordinaten repr�sentiert werden.
+'@ rdfs:comment    = Die Verwendung wird im [Konventionenhandbuch](https://www.dcat-ap.de/def/dcatde/2.0/implRules/#angaben-zur-geografischen-abdeckung) genauer beschrieben.
+
+
+class "foaf:Agent" <<mandatory>> {
+    <<mandatory>> foaf:name ~> rdfs:Literal [1..*]
+}
+'@ rdfs:label      = Verantwortliche Stelle
+'@ rdf:about       = http://xmlns.com/foaf/0.1/Agent
+'@ rdfs:seeAlso    = http://xmlns.com/foaf/spec/#term_Agent
+'@ rdfs:comment    = Eine Stelle oder Person, welche mit Katalogen und Datens�tzen in unterschiedlichen Rollenauspr�gungen assoziiert ist.
+
+"foaf:Agent" --> "0..1"     "skos:Concept"      : <<optional>> dct:type
+
+
+class "adms:Identifier" <<optional>> {
+    <<mandatory>> skos:notation ~> rdfs:Literal  [1]
+}
+'@ rdfs:label      = Identifier
+'@ rdf:about       = http://www.w3.org/ns/adms#Identifier
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-adms/#dt_identifier
+'@ rdfs:comment    = Die Klasse "Identifier" besteht je nach spezifischen Kontext aus einem String, welcher
+'@ rdfs:comment    = - die ID ist, 
+'@ rdfs:comment    = - eine optionale ID f�r das ID-Schema ist,
+'@ rdfs:comment    = - eine optionale ID f�r die Version des ID-Schemas ist oder
+'@ rdfs:comment    = - eine optionale ID f�r die das ID-Schema pflegende verantwortliche Stelle ist.
+
+
+class "spdx:Checksum" <<optional>> {
+    <<mandatory>> spdx:algorithm ~> rdfs:Resource [1]
+    <<mandatory>> spdx:checksumValue ~> rdfs:Literal [1]
+}
+'@ rdfs:label      = Pr�fsumme
+'@ rdf:about       = http://spdx.org/rdf/terms#Checksum
+'@ rdfs:seeAlso    = https://spdx.org/rdf/terms/#d4e1930
+'@ rdfs:comment    = Ein Wert, der es erm�glicht, die Inhalte einer Datei zu verifizieren (f�r korrekt zu erkl�ren). 
+'@ rdfs:comment    = Diese Klasse erm�glicht es, die Ergebnisse einer Vielzahl von Pr�fsummen- und Kryptoalgorithmen zu repr�sentieren.
+
+
+class "dcat:CatalogRecord" <<optional>> {
+    <<mandatory>> dct:modified ~> rdfs:Literal [1]
+ 
+    <<recommended>> dct:conformsTo ~> rdfs:Resource [0..1]
+    <<recommended>> dct:issued ~> rdfs:Literal [0..1]
+    
+    <<optional>> dct:description ~> rdfs:Literal [*]
+    <<optional>> dct:language ~> dct:LinguisticSystem [*]
+    <<optional>> dct:title ~> rdfs:Literal [*]
+}
+'@ rdfs:label      = Katalogeintrag
+'@ rdf:about       = http://www.w3.org/ns/dcat#CatalogRecord
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Catalog_Record
+'@ rdfs:comment    = Die Beschreibung des Eintrags in einem Katalog.
+
+"dcat:CatalogRecord" --> "1"     "dcat:Resource"      : <<mandatory>> foaf:primaryTopic
+"dcat:CatalogRecord" --> "0..1"  "dcat:CatalogRecord" : <<optional>> dct:source
+"dcat:CatalogRecord" --> "0..1"  "skos:Concept" : <<recommended>> adms:status
+
+
+class "dct:LicenceType" <<recommended>> {
+}
+'@ rdfs:label      = Lizenzdokument
+'@ rdf:about       = http://purl.org/dc/terms/LicenseDocument
+'@ rdfs:seeAlso    = https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-LicenseDocument
+'@ rdfs:comment    = Ein rechtlich verbindliches Dokument, welches die Verwendung einer Ressource offiziell erlaubt.
+
+"dcat:dct:LicenceType" --> "*"  "skos:Concept" : <<recommended>> dct:type
+
+
+class "dcat:Relationship" <<optional>> {
+    <<mandatory>> dcat:hadRole ~> dcat:Role [1..*]
+    <<mandatory>> dct:relation ~> rdfs:Resource [1..*]
+}
+'@ rdfs:label      = Beziehung
+'@ rdf:about       = http://www.w3.org/ns/dcat#Relationship
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Relationship
+'@ rdfs:comment    = Eine Klasse, um eine Beziehung zwischen mehreren DCAT Ressourcen genauer zu beschreiben.
+
+
+class "prov:Attribution" <<optional>> {
+    <<mandatory>> dcat:hadRole ~> dcat:Role [1..*]
+    <<mandatory>> prov:agent ~> prov:Agent [1..*]
+}
+'@ rdfs:label      = Rollenzuordnung
+'@ rdf:about       = http://www.w3.org/ns/prov#Attribution
+'@ rdfs:seeAlso    = https://www.w3.org/TR/prov-o/#Attribution
+'@ rdfs:comment    = Diese Klasse verkn�ft eine Ressource mit Agenten und beschreibt, welche Rolle die Agenten im Bezug auf die Ressource eingenommen haben.
+'@ rdfs:comment    = Sie ist insbesondere dann relevant, wenn keine Eigenschaften wie `dcatde:originator`, `dct:creator` oder `dct:publisher` existieren, um die Rolle zu beschreiben.
+
+
+class "skos:Concept" <<mandatory>> {
+    <<mandatory>> skos:prefLabel ~> rdfs:Literal [1..*]
+}
+'@ rdfs:label      = Kategorie
+'@ rdf:about       = http://www.w3.org/2004/02/skos/core#Concept
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Concept
+'@ rdfs:comment    = Das Thema bzw. die Kategorie eines Datensatzes.
+
+"skos:Concept" --> "*"     "skos:ConceptScheme"      : <<optional>> skos:inScheme
+
+
+class "skos:ConceptScheme" <<optional>> {
+    + <<mandatory>> dct:title ~> rdfs:Literal [1..*]
+}
+'@ rdfs:label      = Kategorienschema
+'@ rdf:about       = http://www.w3.org/2004/02/skos/core#ConceptScheme
+'@ rdfs:seeAlso    = https://www.w3.org/TR/vocab-dcat-2/#Class:Concept_Scheme
+'@ rdfs:comment    = Eine Sammlung von Konzepten/Begrifflichkeiten (z.B. in Form eines kontrollierten Vokabulars) durch welche die Kategorie definiert ist.
+
+
+@enduml
