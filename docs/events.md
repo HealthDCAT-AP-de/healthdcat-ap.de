@@ -12,13 +12,20 @@ Das Profil fügt sich damit in eine Reihe von [anderen](https://github.com/GKStG
 
 ## Workshops zur Datennutzung in der Post-COVID-Forschung
 
-[Zum nächsten Workshop](/events/datennutzung/2024-11-14_WS1-Kickoff.md)
-
 Wir von HealthDCAT-AP.de laden zu der
 
-**virtuellen Auftaktveranstaltung am Donnerstag, 14. November 2024 von 10:00 bis 12:00 Uhr**
+**virtuellen Veranstaltung am Donnerstag, 13. Februar 2025 von 09:30 bis 12:00 Uhr**
 
-der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* ein. Die Veranstaltung wird teilweise aufgezeichnet.
+der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* ein. Im zweiten Workshop der Reihe liegt der Fokus auf *Datenbereitstellung & Datennutzung im Praxistest*.
+Die Veranstaltung wird teilweise aufgezeichnet.
+
+#### Rückblick
+
+
+Am Donnerstag, 14. November 2024 fand die **Auftaktveranstaltung** der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* statt. Die Veranstaltung wird teilweise aufgezeichnet.
+
+Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung finden sich auf [dieser Seite](/events/datennutzung/2024-11-14_WS1-Kickoff.md).
+
 
 
 ## Workshops zu HealthDCAT-AP.de
