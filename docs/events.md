@@ -22,7 +22,7 @@ Die Veranstaltung wird teilweise aufgezeichnet.
 #### Rückblick
 
 
-Am Donnerstag, 14. November 2024 fand die **Auftaktveranstaltung** der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* statt. Die Veranstaltung wird teilweise aufgezeichnet.
+Am Donnerstag, 14. November 2024 fand die **Auftaktveranstaltung** der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* statt.
 
 Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung finden sich auf [dieser Seite](/events/datennutzung/2024-11-14_WS1-Kickoff.md).
 
