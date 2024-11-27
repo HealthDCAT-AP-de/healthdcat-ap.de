@@ -26,6 +26,7 @@ Am Donnerstag, 14. November 2024 fand die **Auftaktveranstaltung** der Veranstal
 
 Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung finden sich auf [dieser Seite](/events/datennutzung/2024-11-14_WS1-Kickoff.md).
 
+&nbsp;
 
 
 ## Workshops zu HealthDCAT-AP.de
@@ -38,4 +39,9 @@ Wir von HealthDCAT-AP.de laden zu der
 
 der Standardisierungsreihe zu HealthDCAT-AP.de ein.
 
+&nbsp;
+
+&nbsp;
+
+[Impressum](/imprint.md)
 
