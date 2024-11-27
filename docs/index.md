@@ -32,3 +32,9 @@ In der zweiten Stufe der Challenge werden die Konzepte verstetigt und ausgebaut.
 * Bereitstellung technischer Infrastruktur für den Wissensgraph: Die initialen Schritte zum Aufbau der technischen Infrastruktur werden eingeleitet und vorangetrieben.
 * Initialversion Wissensgraph: Die erste Version des Graphen wird vorbereitet und auf Basis der bisherigen Arbeitsergebnisse erstellt.
 * Definition der Beispiel-Abfragen für den Wissensgraph: Es werden beispielhafte Abfragen für den Wissensgraphen konzipiert, um die Praxistauglichkeit des Wissensgraphen zu demonstrieren.
+
+&nbsp;
+
+&nbsp;
+
+[Impressum](/imprint.md)
