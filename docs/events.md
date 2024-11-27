@@ -34,7 +34,7 @@ Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung find
 
 Wir von HealthDCAT-AP.de laden zu der
 
-**virtuellen aufgezeichneten Auftaktveranstaltung am Donnerstag, 28. November 2024 14:00-16:30 Uhr**
+**virtuellen, aufgezeichneten Auftaktveranstaltung am Donnerstag, 28. November 2024 von 14:00 bis 16:30 Uhr**
 
 der Standardisierungsreihe zu HealthDCAT-AP.de ein.
 
