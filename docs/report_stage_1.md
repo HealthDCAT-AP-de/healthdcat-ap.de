@@ -71,3 +71,10 @@ Inhaltsverzeichnis
 # 9 Anhang
 ## [9.1 Abkürzungsverzeichnis](/report_stage_1/9_Anhang/9.1_Abkuerzungsverzeichnis.md)
 ## [Resultat CAMSS HealthDCAT-AP.de](/report_stage_1/9_Anhang/Resultat_CAMSS_HealthDCAT-APde.pdf)
+
+
+&nbsp;
+
+&nbsp;
+
+[Impressum](/imprint.md)
