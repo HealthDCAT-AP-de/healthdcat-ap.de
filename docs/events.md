@@ -31,13 +31,15 @@ Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung find
 
 ## Workshops zu HealthDCAT-AP.de
 
-[Zum nächsten Workshop](/events/standardisierung/2024-11-28_WS1-Kickoff.md)
+Der nächste Termin der Standardisierungszeihe zu HealthDCAT-AP.de findet voraussichtlich im März 2025 statt. Der Termin wird an dieser Stelle bekannt gegeben.
 
-Wir von HealthDCAT-AP.de laden zu der
+#### Rückblick
 
-**virtuellen, aufgezeichneten Auftaktveranstaltung am Donnerstag, 28. November 2024 von 14:00 bis 16:30 Uhr**
+Am Donnerstag, 28. November 2024 fand die **Auftaktveranstaltung** der Standardisierungsreihe zu HealthDCAT-AP.de statt.
 
-der Standardisierungsreihe zu HealthDCAT-AP.de ein.
+Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung finden sich auf [dieser Seite](/events/standardisierung/2024-11-28_WS1-Kickoff.md).
+
+
 
 &nbsp;
 
