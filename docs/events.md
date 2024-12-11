@@ -17,7 +17,7 @@ Wir von HealthDCAT-AP.de laden zu der
 **virtuellen Veranstaltung am Donnerstag, 13. Februar 2025 von 09:30 bis 12:00 Uhr**
 
 der Veranstaltungsreihe zur *Datennutzung in der Post-COVID-Forschung - Bessere Auffindbarkeit von Forschungsprojekten durch standardisierte Metadaten* ein. Im zweiten Workshop der Reihe liegt der Fokus auf *Datenbereitstellung & Datennutzung im Praxistest*.
-Die Veranstaltung wird teilweise aufgezeichnet.
+Die Veranstaltung wird teilweise aufgezeichnet. Weitere Informationen folgen in Kürze.
 
 #### Rückblick
 
@@ -31,7 +31,11 @@ Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung find
 
 ## Workshops zu HealthDCAT-AP.de
 
-Der nächste Termin der Standardisierungszeihe zu HealthDCAT-AP.de findet voraussichtlich im März 2025 statt. Der Termin wird an dieser Stelle bekannt gegeben.
+Wir von HealthDCAT-AP.de laden zu der
+
+**virtuellen, aufgezeichneten Veranstaltung am Donnerstag, 20. März 2025**
+
+der Standardisierungsreihe zu HealthDCAT-AP.de ein. Weitere Informationen folgen in Kürze.
 
 #### Rückblick
 
