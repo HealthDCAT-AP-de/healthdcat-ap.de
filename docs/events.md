@@ -33,13 +33,13 @@ Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung find
 
 Wir von HealthDCAT-AP.de laden zu der
 
-**virtuellen, aufgezeichneten Veranstaltung am Donnerstag, 20. März 2025**
+**virtuellen, aufgezeichneten Veranstaltung am Donnerstag, 20. März 2025 von 09:30 bis 12:00 Uhr**
 
 der Standardisierungsreihe zu HealthDCAT-AP.de ein. Weitere Informationen folgen in Kürze.
 
 #### Rückblick
 
-Am Donnerstag, 28. November 2024 fand die **Auftaktveranstaltung** der Standardisierungsreihe zu HealthDCAT-AP.de statt.
+Am Donnerstag, 28. November 2024 fand die **Auftaktveranstaltung** der *Standardisierungsreihe zu HealthDCAT-AP.de* statt.
 
 Weitere Details, sowie die Folien und Aufzeichnung der Auftaktveranstaltung finden sich auf [dieser Seite](/events/standardisierung/2024-11-28_WS1-Kickoff.md).
 
