@@ -57,10 +57,9 @@ class "dcat:Dataset" <<mandatory>> {
     <<mandatory>> dct:identifier ~> rdfs:Literal [1..*]
     <<mandatory>> dct:provenance ~> dct:ProvenanceStatement [1..*]
     <<mandatory>> dct:title ~> rdfs:Literal [1..*]
-    <<mandatory>> dqv:hasQualityAnnotation ~> dqv:QualityCertificate [1..*]
-    + <<mandatory>> healthdcatap:hasPersonalData ~> dpv:personalData [1..*]
-    <<mandatory>> healthdcatap:maxTypicalAge ~> xsd:nonNegativeInteger [1]
-    <<mandatory>> healthdcatap:minTypicalAge ~> xsd:nonNegativeInteger [1]
+    + <<mandatory>> dpv:hasPersonalData ~> dpv:personalData [1..*]
+    + <<recommended>> healthdcatap:maxTypicalAge ~> xsd:nonNegativeInteger [1]
+    + <<recommended>> healthdcatap:minTypicalAge ~> xsd:nonNegativeInteger [1]
     <<mandatory>> healthdcatap:numberOfRecords ~> xsd:nonNegativeInteger [1]
     <<mandatory>> healthdcatap:numberOfUniqueIndividuals ~> xsd:nonNegativeInteger [1]
     <<mandatory>> healthdcatap:populationCoverage ~> rdfs:Literal [1..*]
@@ -69,6 +68,7 @@ class "dcat:Dataset" <<mandatory>> {
     <<recommended>> dcat:keyword ~> rdfs:Literal [*]
     + <<recommended>> dpv:hasLegalBasis ~> dpv:LegalBasis [*]
     + <<recommended>> dpv:hasPurpose ~> dpv:Purpose [*]
+    + <<recommended>> dqv:hasQualityAnnotation ~> dqv:QualityAnnotation [*]
     <<recommended>> healthdcatap:publisherNote ~> rdfs:Literal [0..1]
    
     <<optional>> adms:versionNotes ~> rdfs:Literal [*]
@@ -78,7 +78,6 @@ class "dcat:Dataset" <<mandatory>> {
     + <<optional>> dcatde:geocodingDescription ~> rdfs:Resource [*]
     + <<optional>> dcatde:politicalGeocodingLevelURI ~> rdfs:Resource [*]
     + <<optional>> dcatde:politicalGeocodingURI ~> rdfs:Resource [*]
-    + <<optional>> dcatde:qualityProcessURI ~> rdfs:Resource [0..1]
     <<optional>> dct:accrualPeriodicity ~> dct:Frequency [0..1]
     <<optional>> dct:alternative ~> rdfs:Literal [0..1]
     <<optional>> dct:conformsTo ~> dct:Standard [*]
@@ -89,9 +88,10 @@ class "dcat:Dataset" <<mandatory>> {
     <<optional>> dct:modified ~> rdfs:Literal [0..1]
     <<optional>> dct:relation ~> rdfs:Resource [*]
     <<optional>> foaf:page ~> foaf:Document [*]
-    <<optional>> owl:versionInfo ~> rdfs:Literal [0..1]
+    + <<optional>> dcat:version ~> rdfs:Literal [*]
     <<optional>> prov:wasGeneratedBy ~> prov:Activity [*]
     <<optional>> healthdcatap:hasCodingSystem ~> dct:Standard [*]
+    + <<optional>> healthdcatapde:targetAudience ~> skos:Concept [*]
 }   
 '@ rdfs:label      = Datensatz
 '@ rdf:about       = http://www.w3.org/ns/dcat#Dataset
@@ -105,20 +105,20 @@ class "dcat:Dataset" <<mandatory>> {
 "dcat:Dataset" --> "*"  "skos:Concept"  : <<recommended>> healthdcatap:hasCodeValues
 "dcat:Dataset" --> "0..1"  "skos:Concept"  : <<recommended>> healthdcatap:publisherType
 "dcat:Dataset" --> "*"     "cr:RecordSet"       : <<recommended>> cr:recordSet
-"dcat:Dataset" --> "1..*"  "cr:FileObject"      : <<mandatory>> cr:distribution
+"dcat:Dataset" --> "1..*"  "cr:FileObject"      : <<recommended>> cr:distribution
 "dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:source
 "dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:hasVersion
 "dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:isVersionOf
 "dcat:Dataset" --> "*"     "dcat:Distribution"  : <<recommended>> healthdcatap:analytics
-"dcat:Dataset" --> "1..*"  "dcat:Distribution"  : <<mandatory>> adms:sample
-"dcat:Dataset" --> "1..*"  "dcat:Distribution"  : <<mandatory>> dcat:distribution
+"dcat:Dataset" --> "**"  "dcat:Distribution"  : <<recommended>> adms:sample
+"dcat:Dataset" --> "*"  "dcat:Distribution"  : <<recommended>> dcat:distribution
 "dcat:Dataset" --> "1..*" "dct:Location"     : <<mandatory>> dct:spatial
 "dcat:Dataset" --> "*" "dct:PeriodOfTime" : <<recommended>> dct:temporal
 "dcat:Dataset" --> "1"  "foaf:Agent"         : <<mandatory>> dct:publisher
 "dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dct:creator
 "dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dct:contributor
-"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dcatde:originator
-"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> dcatde:maintainer
+"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> geodcatap:originator
+"dcat:Dataset" --> "*"     "foaf:Agent"         : <<optional>> geodcatap:custodian
 "dcat:Dataset" --> "0..1"     "dct:PeriodOfTime"         : <<optional>> healthdcatap:retentionPeriod
 "dcat:Dataset" --> "1"     "foaf:Agent"         : <<mandatory>> healthdcatap:hdab
 "dcat:Dataset" --> "*"     "adms:Identifier"         : <<optional>> adms:identifier
@@ -209,6 +209,7 @@ class "dcat:DataService" <<optional>> {
     <<optional>> dct:description ~> rdfs:Literal [*]
     <<optional>> dct:format ~> dct:MediaType [*]
     <<optional>> dct:license ~> dct:LicenseDocument [0..1]
+    + <<optional>>healthdcatapde:dataServiceType ~> skos:Concept [0..1]
 }
 '@ rdfs:label      = Datenservice
 '@ rdf:about       = http://www.w3.org/ns/dcat#DataService
@@ -228,8 +229,6 @@ class "dct:PeriodOfTime" <<recommended>> {
     <<recommended>> dcat:endDate ~> rdfs:Literal [0..1]
     <<recommended>> dcat:startDate ~> rdfs:Literal [0..1]
 
-    <<optional>> schema:endDate ~> rdfs:Literal [0..1]
-    <<optional>> schema:startDate ~> rdfs:Literal [0..1]
     <<optional>> time:hasBeginning ~> time:Instant [0..1]
     <<optional>> time:hasEnd ~> time:Instant [0..1]  
 }
