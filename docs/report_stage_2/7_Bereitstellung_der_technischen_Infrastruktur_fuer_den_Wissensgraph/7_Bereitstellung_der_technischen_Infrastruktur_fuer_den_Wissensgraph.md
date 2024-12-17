@@ -1,0 +1,16 @@
+[Zurück zum Inhaltsverzeichnis](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2.html)
+
+# 7 Bereitstellung der technischen Infrastruktur für den Wissensgraph
+
+Im Bericht der ersten Stufe wurde als technische Infrastruktur intensiv die Nutzung der Software Stardog erläutert. Gleichzeitig wurde die Option angedacht, im Rahmen einer offenen Datenkatalogsoftware die freie Zugänglichkeit zu den Metadaten zu ermöglichen.[^104]
+
+Dieses Kapitel dient der Darstellung der in Stufe 2 vorgenommenen Entwicklungstätigkeiten, mithilfe derer das Datenmodell und der zugehörige Wissensgraph in eine Proof-of-Concept-Lösung integriert wurde. Dabei soll zunächst die verwendete Softwarelösung dargestellt werden. Darüber hinaus wird ein Ausblick auf die weiteren Entwicklungsarbeiten in der dritten Stufe für eine MVP-Lösung gegeben[^105].
+
+In der ersten Stufe der Challenge wurde primär die Software Stardog als Lösungsperspektive analysiert, was im Rahmen der Konzipierungsphase als einfacher und cloudbasierter Zugang zunächst sinnvoll erschien. Jedoch konkretisierten sich im Nachgang des Berichts und in Vorbereitung der zweiten Stufe einige Fragestellungen und Herausforderungen, die mit Stardog nur unzureichend bedient werden konnten. Zwar bietet Stardog gute Möglichkeiten zur Visualisierung des Wissensgraph und eine unterstützte Abfrage mittels SPARQL, die Software selbst ist jedoch proprietär, für ein Unternehmensumfeld entwickelt, und befindet sich in einer Cloud-Umgebung. Anpassungen sind daher nur im Rahmen der Weiterentwicklung durch den Anbieter möglich. Ebenso sieht Stardog keine freie Zugänglichkeit des Wissensgraph ohne Login vor. Auch ein automatisiertes Harvesting externer Datensätze oder die Anbindung von Datentransformationen, bspw. via XSLT, ist nur schwierig bis gar nicht möglich.
+
+Zwar wird im Bericht der ersten Stufe Stardog beschrieben, jedoch stellte sich schon bei den Vorbereitungen für Stufe 2 heraus, dass die an die PoC-Lösung gestellten Anforderungen hierdurch nicht erfüllt werden können. Daher wurde bereits bei der Vorstellung für Stufe 2 die Software piveau als gewählte Lösung vorgestellt. Es handelt sich um eine bereits verfügbare Open Source Software, die in jüngster Zeit insbesondere für die Erstellung von Open-Data-Portalen auf verschiedenen Ebenen zum Einsatz kommt. Sie basiert auf den für HealthDCAT-AP.de erforderlichen Semantic-Web-Technologien und bietet darüber hinaus Möglichkeiten zur Integration externer Harvestings. Ein weiterer positiver Punkt ist die Möglichkeit des Deployments und Betriebs auf dem OKD-Cluster im BSI-zertifizierten Rechenzentrum der ]init[ AG, durch die auch erhöhte Sicherheitsstandards im Betrieb berücksichtigt werden.
+
+[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/7_Bereitstellung_der_technischen_Infrastruktur_fuer_den_Wissensgraph/7.1_Vorstellung_von_piveau.html)
+
+[^104] vgl. Bereitstellungskonzept des Berichts für Stufe 1 https://healthdcat-ap-de.github.io/healthdcat-ap.de/ report_stage_1/7_MVP-Bereitstellungskonzept_und_Softwarelizenz/7.1_Visualisieren_Explorieren_und_Abfragen.html
+[^105] Das MVP – Minimum Viable Product – definiert eine erste minimale Iteration einer Software, die im Funktionsumfang bereits weitgehend vollständig, in der Tiefe aber noch nicht für einen Dauerbetrieb eingerichtet ist.
