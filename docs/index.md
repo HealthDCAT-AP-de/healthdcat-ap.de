@@ -2,6 +2,8 @@
 
 [Hier geht es direkt zum Bericht Stufe 1](/report_stage_1.md)
 
+[Hier geht es direkt zum Bericht Stufe 2](/report_stage_2.md)
+
 [Hier geht es zu den Events](/events.md)
 
 
