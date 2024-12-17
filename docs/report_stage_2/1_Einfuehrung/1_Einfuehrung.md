@@ -8,8 +8,6 @@ Ein weiterer Fokus war die Weiterentwicklung des Datenmodells[^4]. Diese zunäch
 
 ![Zusammenhang zwischen Modell, Wissensgraph und Portal](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/12_Einleitung_Kontext.png "Zusammenhang zwischen Modell, Wissensgraph und Portal")
 
-[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/1_Hintergrund_Ausgangslage/1.2_Standardisierungsbedarf/1.2.1_Umfeldanalyse.html)
-
 Die Kapitel dieses Berichts beschreiben die zu Stufe 2 gehörenden Liefergegenstände und geben, wo möglich, bereits Ausblick auf die in Stufe 3 geplanten weiteren Aktivitäten.
 Durch den vorliegenden Bericht werden die Ziele der zweiten Stufe der Post-COVID-Challenge erfüllt.
 
@@ -36,6 +34,8 @@ Der Wissensgraph selbst ist, wie das Datenmodell, eine technologieneutrale Entwi
 ## Bereitstellung der technischen Infrastruktur für den Wissensgraph
 
 Die technische Infrastruktur für eine den Wissensgraph nutzende Datenplattform wird beschrieben und ihre Umsetzung vorgestellt.
+
+[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/1_Hintergrund_Ausgangslage/1.2_Standardisierungsbedarf/1.2.1_Umfeldanalyse.html)
 
 [^1] vgl. https://www.init.de/ - im Folgenden als ]init[ bezeichnet.
 [^2] vgl. https://www.wig2.de/ - im Folgenden als WIG2 bezeichnet.
