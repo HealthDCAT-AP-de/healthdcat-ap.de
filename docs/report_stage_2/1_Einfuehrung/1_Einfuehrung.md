@@ -35,7 +35,7 @@ Der Wissensgraph selbst ist, wie das Datenmodell, eine technologieneutrale Entwi
 
 Die technische Infrastruktur für eine den Wissensgraph nutzende Datenplattform wird beschrieben und ihre Umsetzung vorgestellt.
 
-[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/1_Hintergrund_Ausgangslage/1.2_Standardisierungsbedarf/1.2.1_Umfeldanalyse.html)
+[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/2_Einrichten_des_Stakeholdermanagements/2_Einrichten_des_Stakeholdermanagements.html)
 
 [^1] vgl. https://www.init.de/ - im Folgenden als ]init[ bezeichnet.
 [^2] vgl. https://www.wig2.de/ - im Folgenden als WIG2 bezeichnet.
