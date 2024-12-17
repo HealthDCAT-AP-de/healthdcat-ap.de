@@ -8,7 +8,7 @@ Als Vorbereitung dafür wurde in Stufe 1 ein Stakeholderverzeichnis mit relevant
 
 In Stufe 2 wurden diese Bemühungen intensiv fortgeführt bzw. umgesetzt. Leitlinie war dabei stets eine größtmögliche Transparenz, um die Fachöffentlichkeit zu informieren und zu beteiligen. Im Folgenden werden die einzelnen Aktivitäten ausführlich dargestellt.
 
-[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/1_Hintergrund_Ausgangslage/1.2_Standardisierungsbedarf/1.2.1_Umfeldanalyse.html)
+[nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/2_Einrichten_des_Stakeholdermanagements/2.1_Stakeholderverzeichnis.html)
 
 [^6] vgl. Beteiligungskonzept.
 [^7] vgl. Beteiligungskonzept des Bericht für Stufe 1: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/4_Beteiligungskonzept/4.3.2_Strategie_2_ Oeffentlichkeitsarbeit_und_Beteiligungsverfahren.html
