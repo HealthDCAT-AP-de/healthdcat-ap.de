@@ -37,7 +37,7 @@ Die technische Infrastruktur für eine den Wissensgraph nutzende Datenplattform 
 
 [nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/2_Einrichten_des_Stakeholdermanagements/2_Einrichten_des_Stakeholdermanagements.html)
 
-[^1] vgl. https://www.init.de/ - im Folgenden als ]init[ bezeichnet.
-[^2] vgl. https://www.wig2.de/ - im Folgenden als WIG2 bezeichnet.
-[^3] Der Bericht für die erste Stufe der Post-COVID-Challenge wurde inzwischen auf der Website von HealthDCAT-AP.de veröffentlicht: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1.html
-[^4] Bei dem Vorhaben HealthDCAT-AP.de handelt es sich um ein Modell für Metadaten. Zugunsten der besseren Lesbarkeit des Berichts wird im Folgenden aber weitestgehend auf die Bezeichnung Metadatenmodell verzichtet und nur noch der kürzere Begriff „Datenmodell“ verwendet.
+[^1]: vgl. https://www.init.de/ - im Folgenden als ]init[ bezeichnet.
+[^2]: vgl. https://www.wig2.de/ - im Folgenden als WIG2 bezeichnet.
+[^3]: Der Bericht für die erste Stufe der Post-COVID-Challenge wurde inzwischen auf der Website von HealthDCAT-AP.de veröffentlicht: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1.html
+[^4]: Bei dem Vorhaben HealthDCAT-AP.de handelt es sich um ein Modell für Metadaten. Zugunsten der besseren Lesbarkeit des Berichts wird im Folgenden aber weitestgehend auf die Bezeichnung Metadatenmodell verzichtet und nur noch der kürzere Begriff „Datenmodell“ verwendet.
