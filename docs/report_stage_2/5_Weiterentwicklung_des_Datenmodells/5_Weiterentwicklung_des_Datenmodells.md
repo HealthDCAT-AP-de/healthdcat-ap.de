@@ -14,4 +14,4 @@ Der aktuelle Stand des Datenmodells kann dem UML-Diagramm entnommen werden, das 
 
 [^53]: vgl. Bericht für Stufe 1: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/2_Ausrichtung_ des_Datenmodells_an_den_Anforderungen_der_Forschung/2.5_Initialversion_Datenmodell/2.5.1_Konzept_fuer_ein_offenes_semantisches_Metadatenmodell.html
 [^54]: vgl. Bericht für Stufe 1: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/2_Ausrichtung_ des_Datenmodells_an_den_Anforderungen_der_Forschung/2.5_Initialversion_Datenmodell/2.5.2_Europaeische_und_internationale_RDF-Standards.html
-[^55]: vgl. healthdcat-ap.de/model at main · HealthDCAT-AP-de/healthdcat-ap.de
+[^55]: vgl. https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/tree/main/model
