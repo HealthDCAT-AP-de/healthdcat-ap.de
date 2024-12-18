@@ -12,5 +12,5 @@ Zwar wird im Bericht der ersten Stufe Stardog beschrieben, jedoch stellte sich s
 
 [nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/7_Bereitstellung_der_technischen_Infrastruktur_fuer_den_Wissensgraph/7.1_Vorstellung_von_piveau.html)
 
-[^104] vgl. Bereitstellungskonzept des Berichts für Stufe 1 https://healthdcat-ap-de.github.io/healthdcat-ap.de/ report_stage_1/7_MVP-Bereitstellungskonzept_und_Softwarelizenz/7.1_Visualisieren_Explorieren_und_Abfragen.html
-[^105] Das MVP – Minimum Viable Product – definiert eine erste minimale Iteration einer Software, die im Funktionsumfang bereits weitgehend vollständig, in der Tiefe aber noch nicht für einen Dauerbetrieb eingerichtet ist.
+[^104]: vgl. Bereitstellungskonzept des Berichts für Stufe 1 https://healthdcat-ap-de.github.io/healthdcat-ap.de/ report_stage_1/7_MVP-Bereitstellungskonzept_und_Softwarelizenz/7.1_Visualisieren_Explorieren_und_Abfragen.html
+[^105]: Das MVP – Minimum Viable Product – definiert eine erste minimale Iteration einer Software, die im Funktionsumfang bereits weitgehend vollständig, in der Tiefe aber noch nicht für einen Dauerbetrieb eingerichtet ist.
