@@ -6,7 +6,7 @@ Die zweite Stufe der Post-COVID-Challenge zielte primär auf die Umsetzung der i
 
 Ein weiterer Fokus war die Weiterentwicklung des Datenmodells[^4]. Diese zunächst sehr verschiedenen Schwerpunkte bilden einen größeren Zusammenhang: Durch eine fachliche Einbeziehung von Expert:innen können neue Erkenntnisse für die Weiterentwicklung des Datenmodells gewonnen werden, die aus der eigenen Entwicklung heraus nicht möglich gewesen wären. Das Datenmodell wiederum bildet die Grundlage für die Entwicklung einer Softwarelösung, mit der die Metadatensätze schlussendlich präsentiert und von Datennutzenden durchsucht werden können. Durch die Verwendung von Semantic Web-Technologien werden die eingebundenen Datensätze darüber hinaus in einem Wissensgraph verknüpfbar, um den Gewinn neuer Erkenntnisse zu fördern.
 
-![Zusammenhang zwischen Modell, Wissensgraph und Portal](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/12_Einleitung_Kontext.png)
+![Zusammenhang zwischen Modell, Wissensgraph und Portal](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/12_Einleitung_Kontext.png?raw=true)
 *Zusammenhang zwischen Modell, Wissensgraph und Portal*
 
 Die Kapitel dieses Berichts beschreiben die zu Stufe 2 gehörenden Liefergegenstände und geben, wo möglich, bereits Ausblick auf die in Stufe 3 geplanten weiteren Aktivitäten.
