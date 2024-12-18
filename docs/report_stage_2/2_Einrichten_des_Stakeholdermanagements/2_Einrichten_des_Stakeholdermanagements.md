@@ -10,5 +10,5 @@ In Stufe 2 wurden diese Bemühungen intensiv fortgeführt bzw. umgesetzt. Leitli
 
 [nächstes Kapitel](https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_2/2_Einrichten_des_Stakeholdermanagements/2.1_Stakeholderverzeichnis.html)
 
-[^6] vgl. Beteiligungskonzept.
-[^7] vgl. Beteiligungskonzept des Bericht für Stufe 1: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/4_Beteiligungskonzept/4.3.2_Strategie_2_ Oeffentlichkeitsarbeit_und_Beteiligungsverfahren.html
+[^6]: vgl. Beteiligungskonzept.
+[^7]: vgl. Beteiligungskonzept des Bericht für Stufe 1: https://healthdcat-ap-de.github.io/healthdcat-ap.de/report_stage_1/4_Beteiligungskonzept/4.3.2_Strategie_2_ Oeffentlichkeitsarbeit_und_Beteiligungsverfahren.html
