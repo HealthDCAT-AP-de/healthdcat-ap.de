@@ -50,6 +50,8 @@
 
 ## [3.3 Weitere Erkenntnisse aus dem Austausch mit Bedarfsträgern](/report_stage_2/3_Abstimmung_mit_Bedarfstraegern/3.3_Weitere_Erkenntnisse_aus_dem_Austausch_mit_Bedarfstraegern.md)
 
+##  [3.4 Geschützte Datenräume in anderen Ländern](/report_stage_2/3_Abstimmung_mit_Bedarfstraegern/3.4_Geschuetzte_Datenraeume_in_anderen_Laendern.md)
+
 # 4 Fortschreiben der Konzepte
 
 ## [4.1 Beteiligungskonzept](/report_stage_2/4_Fortschreiben_der_Konzepte/4.1_Beteiligungskonzept.md)
