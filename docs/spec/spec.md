@@ -312,8 +312,6 @@ Ziel des DQV ist es, die Qualität von Daten systematisch zu erfassen und zu kom
 
 ## 8. Changelog
 
-VORLAGE
-| [`NAME URI`](VORLAGE URI) | `WERTEBEREICH` | `KARDINALITÄT` | ERFORDERLICHKEIT | BESCHREIBUNG EIGENSCHAFT |
 
 
 
