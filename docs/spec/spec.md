@@ -65,11 +65,11 @@ HealthDCAT-AP ist ein spezialisiertes Anwendungsprofil des DCAT-AP, das entwicke
 #### 3.6 Croissant
 Die auf dem schema.org-Vokabular aufbauende Croissant-Spezifikation liegt seit März 2024 in Version 1.0 vor. Herausgeber ist das MLCommons-Konsortium. Es wurde entwickelt, um die Nutzung von Datensätzen in maschinellen Lernmodellen zu vereinfachen. Sie bietet ein Vokabular für Datensatzattribute und standardisiert die Art und Weise, wie Daten in verschiedenen maschinellen Lern-Frameworks wie PyTorch, TensorFlow oder JAX geladen werden. Durch die Vereinheitlichung der Beschreibung und Semantik von ML-Datensätzen erleichtert die Croissant-Spezifikation Forschern und Praktikern das Erkunden, Verstehen und Nutzen einer breiten Palette von Datensätzen. Sie baut auf bestehenden Standards auf und zielt darauf ab, die Interoperabilität und Wiederverwendbarkeit von Daten im Bereich des maschinellen Lernens zu verbessern
 
-#### 3.7 Data Privacy Vocabulary ÜBERARBEITEN
+#### 3.7 Data Privacy Vocabulary
 Das Data Privacy Vocabulary (DPV) ist ein standardisiertes Vokabular der W3C, das Datenschutzinformationen maschinenlesbar beschreibt und standardisiert. Es dient der Interoperabilität und dem Verständnis von Datenschutzanforderungen in verschiedenen Systemen. DPV definiert zentrale Entitäten wie z.B. DataSubject, DataController, Processing, Purpose und DataRecipient sowie deren Eigenschaften.
 Ziel des DPV ist es, Datenschutzaspekte transparent zu dokumentieren und die Einhaltung von Vorschriften wie der DSGVO zu unterstützen. Als flexibles Vokabular bildet es die Grundlage für spezifische Datenschutzprofile und Erweiterungen, die unterschiedliche rechtliche Anforderungen und Implementierungen abbilden.
 
-#### 3.8 Data Quality Vocabulary ÜBERARBEITEN
+#### 3.8 Data Quality Vocabulary
 Das Data Quality Vocabulary (DQV) ist ein standardisiertes Vokabular der W3C, das dazu dient, die Qualität von Daten in einem maschinenlesbaren Format zu beschreiben. Es definiert zentrale Entitäten wie z.B. DataQualityMetric, DataQualityDimension, DataQualityAssessment und DataQualityRequirement sowie deren Eigenschaften.
 Ziel des DQV ist es, die Qualität von Daten systematisch zu erfassen und zu kommunizieren, um eine bessere Nutzung und Entscheidungsfindung zu ermöglichen. Als flexibles Vokabular bildet es die Basis für die Entwicklung spezifischer Qualitätsprofile und Standards, die in verschiedenen Kontexten und für unterschiedliche Anwendungsfälle genutzt werden können.
 
