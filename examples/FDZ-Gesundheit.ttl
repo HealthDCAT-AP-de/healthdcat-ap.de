@@ -1,0 +1,78 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+              @prefix dcatap: <http://data.europa.eu/r5r/> .
+              @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+              @prefix dqv: <http://www.w3.org/ns/dqv#> .
+              @prefix dpv: <https://w3id.org/dpv#> .
+              @prefix dpv-pd: <https://w3id.org/dpv/dpv-pd#> .
+              @prefix healthdcatap: <http://data.europa.eu/r5r/healthdcatap#> .
+              @prefix locn: <http://www.w3.org/ns/locn#> .
+              @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+              <https://zenodo.org/records/11472236> a dcat:Dataset ;
+                  dct:title "FDZ Gesundheit" ;
+                  dct:description "<p>Das Forschungsdatenzentrum Gesundheit Das Forschungsdatenzentrum Gesundheit (FDZ Gesundheit) am Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) erschließt zu Forschungszwecken die pseudonymisierten Abrechnungsdaten der gesetzlich Krankenversicherten.Das Ziel: Eine bessere Gesundheitsversorgung für alle. Das FDZ Gesundheit befindet sich aktuell im Aufbau. Aktuelle Informationen finden Sie auf der Webseite.</p>" ;
+                  dcat:keyword "Gesetzliche Krankenkassen", "Deutschland", "Forschungsdatenzentrum";
+                  dct:language <http://publications.europa.eu/resource/authority/language/DEU>;
+                  dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Forschungsdatenzentrum Gesundheit" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "poststelle@bfarm.de";
+                        vcard:hasLocality "Köln" ;
+                        vcard:hasPostalCode "50676" ;
+                        vcard:hasStreetAddress "Waisenhausgasse 36-38a"
+                  ];
+                  dct:issued "2024-12-04T13:50:49.668485+00:00"^^xsd:dateTime ;
+                  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>;
+                  dcatap:applicableLegislation <https://www.sozialgesetzbuch-sgb.de/sgbx/75.html>;
+                  dct:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED>;
+                  dct:identifier "https://zenodo.org/records/11472236";
+                  dct:provenance [ a dct:ProvenanceStatement;
+                        rdfs:label "The FDZ health dataset originates from anonymized administrative records collected by statutory health insurance providers in Germany. These data are processed and curated by the Research Data Center (FDZ) of the Federal Institute for Social Security (BAS). They include individual-level claims data submitted by healthcare providers—such as hospitals, clinics, pharmacies, and physicians—to insurers for reimbursement under Germany’s statutory health insurance scheme. Data processing involves rigorous anonymization and aggregation procedures to ensure confidentiality while preserving information relevant to health services research and policy analysis. The FDZ offers access to this dataset to qualified researchers under strict data protection and use agreements, ensuring responsible handling and compliance with legal standards for data privacy in Germany."@en 
+                  ];
+                  dct:publisher [ a foaf:agent;
+                        foaf:URL <https://www.forschungsdatenzentrum-gesundheit.de/>;
+                        foaf:email <mailto:poststelle@bfarm.de>       
+                  ];
+                  dct:spatial <http://publications.europa.eu/resource/authority/country/DEU>;
+                  dct:type <http://publications.europa.eu/resource/authority/dataset-type/STATISTICAL>;
+                  dqv:hasQualityAnnotation [ a dqv:QualityAnnotation ;
+                        dqv:inDimension dqv:completeness;
+                        dqv:hasBody "Daten müssen aufgrund eines Gesetzes (https://www.gesetze-im-internet.de/sgb_5/BJNR024820988.html#BJNR024820988BJNG008700308) dem FDZ ihre Abrechnungsdaten zur Verfügung stellen. Das FDZ stellt die Daten zusammen und macht sie zugänglich."@de
+                  ];
+                  dqv:hasQualityAnnotation [ a dqv:QualityAnnotation ;
+                        dqv:inDimension dqv:accuracy;
+                        dqv:hasBody "Es sind keine Informationen über datenqualitätssicherende Maßnahmen verfügbar."@de
+                  ];
+                  dpv:hasPersonalData dpv-pd:Geographic, dpv-pd:IncomeBracket, dpv-pd:PhysicalTrait, dpv-pd:Name , dpv-pd:OfficialID, dpv-pd:UID, dpv-pd:Username, dpv-pd:BloodType, dpv-pd:Disability, dpv-pd:DNACode, dpv-pd:DrugTestResult, dpv-pd:Health, dpv-pd:HealthHistory, dpv-pd:HealthRecord, dpv-pd:Prescription, dpv-pd:Age, dpv-pd:Gender, dpv-pd:Height, dpv-pd:Weight, dpv-pd:SexualPreference;
+                  healthdcatap:hdab [ a foaf:Organization;
+                        locn:address [ a locn:Address;
+                              locn:adminUnitL1 "DEU";
+                              locn:postCode "53175";
+                              locn:fullAddress "Kurt-Georg-Kiesinger-Allee 3, 53175 Bonn";
+                              locn:thoroughfare "Kurt-Georg-Kiesinger-Allee";
+                              locn:locatorDesignator "3";
+                              locn:postName "Bonn"                        
+                        ];
+                        foaf:mbox <mailto:poststelle@bfarm.de>;
+                        foaf:homepage <https://www.forschungsdatenzentrum-gesundheit.de/>;
+                        foaf:name "Forschungsdatenzentrum Gesundheit (FDZ Gesundheit)"
+                  ];
+                  healthdcatap:healthCategory [ a skos:Concept ;
+                        skos:prefLabel "Abrechnungsdaten von Krankenkassen"@de
+                  ];
+                  healthdcatap:maxTypicalAge: "64";
+                  healthdcatap:minTypicalAge: "0";
+                  healthdcatap:numberOfrecords: "9600000000";
+                  healthdcatap:numberOfUniqueIndividuals: "75000000";
+                  healthdcatap:populationCoverage "All SHI insured persons in Germany";
+                  foaf:page [ a foaf:Document ;
+                        foaf:title "Datensatzbeschreibung FDZ Gesundheit";
+                        foaf:homepage <https://fdz-gesundheit.github.io/datensatzbeschreibung_fdz_gesundheit/>
+                  ];
+                  .
