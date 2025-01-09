@@ -110,7 +110,7 @@ class "dcat:Dataset" <<mandatory>> {
 "dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:hasVersion
 "dcat:Dataset" --> "*"     "dcat:Dataset"       : <<optional>> dct:isVersionOf
 "dcat:Dataset" --> "*"     "dcat:Distribution"  : <<recommended>> healthdcatap:analytics
-"dcat:Dataset" --> "**"  "dcat:Distribution"  : <<recommended>> adms:sample
+"dcat:Dataset" --> "*"  "dcat:Distribution"  : <<recommended>> adms:sample
 "dcat:Dataset" --> "*"  "dcat:Distribution"  : <<recommended>> dcat:distribution
 "dcat:Dataset" --> "1..*" "dct:Location"     : <<mandatory>> dct:spatial
 "dcat:Dataset" --> "*" "dct:PeriodOfTime" : <<recommended>> dct:temporal
