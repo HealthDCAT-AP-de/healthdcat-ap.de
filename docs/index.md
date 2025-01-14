@@ -6,6 +6,7 @@
 
 [Hier geht es zu den Events](/events.md)
 
+[Hier geht es direkt zum Spezifikationsdokument](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/docs/spec/spec.md)
 
 
 ![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_small.png?raw=true)
