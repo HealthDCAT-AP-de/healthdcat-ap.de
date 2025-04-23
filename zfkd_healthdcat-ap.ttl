@@ -1,0 +1,166 @@
+# Eine Übertragung des bundesweiten klinischen Krebsregisterdatensatz (Metadaten) des Robert Koch-Instituts auf die HealthDCAT-AP Struktur 
+
+
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pd: <https://w3c.github.io/dpv/2.0/pd/>.
+@prefix healthdcatap: <https://healthdcat-ap.github.io/>.
+@prefix dcatap: <https://www.dcat-ap.de/>.
+@prefix dpv: <https://w3c.github.io/dpv/2.1/dpv/>.
+@prefix dqv: <https://www.w3.org/TR/2016/NOTE-vocab-dqv-20161215/>.
+@prefix prov: <https://www.w3.org/TR/prov-o/>. 
+@prefix skos: <https://www.w3.org/TR/skos-reference/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cr: <http://mlcommons.org/croissant/1.0>.
+@prefix spdx: <http://spdx.org/rdf/terms/2.3>. 
+@prefix odrl: <http://www.w3.org/ns/odrl/2/>.
+
+  <https://zenodo.org/record/10022040> a dcat:Dataset ;
+    # dct:accessRights "PLATZHALTER" ;
+    # healthdcatap:hdab "PLATZHALTER" ;
+    adms:identifier <https://zenodo.org/record/10022040> ;
+    dcat:distribution [ a dcat:Distribution ;
+          dcatde:licenseAttributionByText "Meisegeier, Stefan et. al. (2024): Bundesweiter klinischer Krebsregisterdatensatz - Datenschema und Klassifikationen, Berlin: Zenodo. DOI:10.5281/zenodo.10022040" ;
+          # dcatde:plannedAvailability "PLATZHALTER" ;
+          dcat:accessURL <https://zenodo.org/api/records/10022040> ;
+          # dcatap:applicableLegislation "PLATZHALTER" ;
+          adms:status <http://publications.europa.eu/resource/authority/distribution-status/COMPLETED> ;
+          dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE>;
+          spdx:checksum "Wird automatisch generiert" ;
+          # dcat:byteSize "PLATZHALTER" ;
+          # dcat:compressFormat "PLATZHALTER" ;
+          dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ;
+          # dcat:packageFormat "PLATZHALTER" ;
+          dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+          dct:issued "2023-10-19T17:21:51.311310+00:00" ;
+          dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+          dct:modified "2024-01-11T17:24:37+01:00"^^xsd:dateTime ;
+          dct:rights "n/a" ; 
+          # odrl:hasPolicy "PLATZHALTER" ;
+          dcat:accessService <https://zenodo.org> ; 
+          dcat:downloadURL <https://zenodo.org/api/records/10022040/files/oBDS_v3.0.0.8a_RKI_Schema.xsd/content> ;
+          dct:conformsTo "n/a" ; 
+          dct:description "Zenodo ist ein offenes Allzweck-Repository, das im Rahmen des europäischen OpenAIRE-Programms entwickelt und vom CERN betrieben wird." ;
+          dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+          dct:title "Github - Bundesweiter klinischer Krebsregisterdatensatz - Datenschema und Klassifikationen" ;
+          foaf:page <https://doi.org/10.5281/zenodo.10022039> 
+       ] ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+    # dcatap:applicableLegislation "PLATZHALTER" ;
+    dct:description "Die Krebsregistrierung in Deutschland erfolgt auf der Basis von Landesgesetzen. Diese verpflichten medizinische Einrichtungen (v. a. niedergelassene Ärztinnen und Ärzte, pathologische Institute, Kliniken, Screening-Einheiten), neu auftretende Krebsfälle und definierte Ereignisse im Krankheits- bzw. Behandlungsverlauf an das zuständige Krebsregister zu melden.</p><p>Die Krebsregister der Bundesländer wiederum übermitteln nach Vorgabe des <a href=\"https://www.gesetze-im-internet.de/bkrg/BJNR270700009.html\">Bundeskrebsregisterdatengesetzes (BKRG)</a> einmal jährlich Angaben zu neu erfassten Erkrankungsfällen an das Zentrum für Krebsregisterdaten (ZfKD) am Robert Koch-Institut. Das ZfKD prüft die Qualität der Daten, führt sie zu einem bundesweiten Datensatz zusammen und stellt sie <a href=\"https://www.krebsdaten.de/info_antrag\">auf Antrag für wissenschaftliche Forschungsprojekte</a> zur Verfügung.</p><p>In diesem Repository werden begleitende Informationen zu <a href=\"https://github.com/robert-koch-institut/Bundesweiter_klinischer_Krebsregisterdatensatz-Datenschema_und_Klassifikationen#struktur-des-bundesweiten-klinischen-krebsregisterdatensatzes\">Struktur</a> und <a href=\"https://github.com/robert-koch-institut/Bundesweiter_klinischer_Krebsregisterdatensatz-Datenschema_und_Klassifikationen#klassifikationen\">Klassifikationen</a> des bundesweiten ZfKD-Datensatzes bereitgestellt.</p><p>Die hier verwendeten <a href=\"https://github.com/robert-koch-institut/Bundesweiter_klinischer_Krebsregisterdatensatz-Datenschema_und_Klassifikationen#klassifikationen\">Klassifikationen</a> spiegeln den derzeitigen Arbeitsstand des ZfKD wider. Ein wesentliches Ziel des Repositories ist es, diesen Stand möglichst transparent abzubilden und beteiligte Akteure zur weiteren gemeinsamen Harmonisierung von Standards einzuladen" ;
+    dct:identifier <https://zenodo.org/record/10022040> ;
+    dct:title "Bundesweiter klinischer Krebsregisterdatensatz - Datenschema und Klassifikationen" ;
+    # healthdcatap:healthCategory "PLATZHALTER" ;
+    dct:type <http://publications.europa.eu/resource/authority/dataset-type/SCHEMA> ;
+    healthdcatap:maxTypicalAge "n/a" ; 
+    healthdcatap:minTypicalAge "n/a" ; 
+    healthdcatap:numberOfRecords "n/a" ; 
+    healthdcatap:numberOfUniqueIndividuals "n/a" ; 
+    dcat:spatialResolutionInMeters "n/a" ; 
+    dcat:temporalResolution "n/a" ; 
+    # dcatde:qualityProcessURI "PLATZHALTER" ;
+    dct:accrualPeriodicity "Irregular" ; # Nicht eindeutig ob Irregular oder n/a
+    dct:alternative "Onkologischer Basisdatensatz - oBDS"; 
+    dct:issued "2023-10-19T17:21:51.311310+00:00" ;
+    dct:modified "2024-08-05T07:48:51.982649+00:00" ;
+    healthdcatap:retentionPeriod "n/a" ; 
+    # owl:versionInfo "PLATZHALTER" ;
+    healthdcatap:publisherNote "n/a" ; 
+    dct:publisher [ a foaf:Organization ;
+      foaf:mbox "opendata@rki.de" ;
+      foaf:name "Robert Koch Institut"
+    ] ;
+    # dct:provenance "PLATZHALTER" ;
+    dct:spatial <http://publications.europa.eu/resource/authority/country/DEU> ;
+    dqv:hasQualityAnnotation "n/a" ; 
+    dpv:hasPersonalData pd:Gender, pd:PhysicalTrait, pd:Health, pd:HealthHistory, pd:HealthRecord ; 
+    healthdcatap:populationCoverage "n/a" ; 
+    adms:versionNotes "n/a" ; 
+    dcat:landingPage  <https://robert-koch-institut.github.io/Bundesweiter_klinischer_Krebsregisterdatensatz-Datenschema_und_Klassifikationen> ;
+    dcat:qualifiedRelation "n/a" ; 
+    # dcatde:geocodingDescription "PLATZHALTER" ;
+    dcatde:maintainer [ a foaf:Agent ;
+      foaf:mbox "opendata@rki.de" ;
+      foaf:name "Robert Koch-Institut | Open Data Team"
+    ] ;
+    dcatde:originator "n/a" ;
+    # dcatde:politicalGeocodingURI "PLATZHALTER" ;
+    dct:conformsTo "n/a" ; 
+    dct:contributor [ a foaf:Person;
+        foaf:name "Stefan Meisegeier";
+        foaf:account <http://orcid.org/0000-0003-2347-1836>; ] ,
+      [ a foaf:Person;
+        foaf:name "Maren Imhoff";
+        foaf:account <http://orcid.org/0009-0001-0030-566X>; ]  ,
+      [ a foaf:Person;
+        foaf:name "Karsten Berg" ] ,
+      [ a foaf:Person;
+        foaf:name "Klaus Kraywinkel";
+        foaf:account <http://orcid.org/0000-0002-9250-6003>; 
+      ] ;
+    # dct:creator "PLATZHALTER" ;
+    # dct:hasVersion "PLATZHALTER" ; 
+    # dct:inSeries "PLATZHALTER" ;
+    # dct:isReferencedBy "PLATZHALTER" ;
+    # dct:isVersionOf "PLATZHALTER" ;
+    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+    # dct:relation "PLATZHALTER" ;
+    # dct:source "PLATZHALTER" ;
+    foaf:page <https://krebsdaten.de/> ;
+    healthdcatap:hasCodingSystem <http://www.wikidata.org/entity/Q45127> ;
+    prov:qualifiedAttribution [ a foaf:Agent ;
+      foaf:mbox "opendata@rki.de" ;
+      foaf:name "Robert Koch-Institut | Open Data Team"
+      ] ;
+    prov:wasGeneratedBy "n/a" ; 
+    # cr:recordSet "PLATZHALTER" ;
+    dcat:contactPoint [ a vcard:Organization ;
+      vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+      vcard:hasCountryName "Deutschland" ;
+      vcard:hasEmail "opendata@rki.de";
+      vcard:hasLocality "Berlin" ;
+      vcard:hasPostalCode "13353" ;
+      vcard:hasStreetAddress "Nordufer 20"
+    ] ;
+    dcat:keyword "Krebs","Tumor","Neoplasm","Medical Oncology","Medizinische Onkologie","Metadaten","Metadata","Classification","Klassifikation","ICD","Germany","Deutschland","Datenschema","Dataschema","RKI","ZfKD","Cancer Registry","Krebsregister","Gesundheitsberichterstattung","Public health surveillance","p65" ;
+    dct:temporal "n/a" ; 
+    dpv:hasLegalBasis [ a dpv:LegalBasis ;
+      dct:description "Bundeskrebsregisterdatengesetz (BKRG) @de" ;
+      dct:source <https://www.gesetze-im-internet.de/bkrg/BJNR270700009.html> ;
+    ] ; 
+    dpv:hasPurpose "Durch das Gesetz bereits beschrieben - https://www.gesetze-im-internet.de/bkrg/BJNR270700009.html " ;
+    # healthdcatap:analytics "PLATZHALTER" ;
+    healthdcatap:hasCodeValues
+      [ a skos:Concept;
+        skos:inScheme [ a skos:ConceptScheme;
+          dct:identifier "https://www.wikidata.org/entity/P494"^^<http://www.w3.org/2001/XMLSchema#anyURI>;
+          skos:prefLabel "International Classification of Diseases, 10th Revision (ICD-10) @en" ;
+          skos:definition "ICD-10 is a medical classification list by the World Health Organization.@en " ;
+          skos:notation "ICD-10" ;
+          owl:versionInfo "Version:2019" 
+        ] ;
+      dct:identifier "https://icd.who.int/browse10/2019/en#/C02.1"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+      skos:notation "C02.1" ;
+      skos:prefLabel "Malignant neoplasm: Border of tongue @en"
+      ] ; 
+    healthdcatap:healthTheme <http://www.wikidata.org/entity/Q12078>, <http://www.wikidata.org/entity/Q1787017> ;
+    adms:sample [ a dcat:Distribution ;
+      dct:description "Angaben zu Tumoren als .csv Testdatensatz mit Referenz auf Patient. @de" ;
+      dcat:downloadURL <tumor.csv> ;
+      dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv>
+    ] ; 
+    cr:distribution "Wird automatisch generiert" ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+    dcat:licence <http://dcat-ap.de/def/licenses/cc-by/4.0>
+    .
+
+
+
