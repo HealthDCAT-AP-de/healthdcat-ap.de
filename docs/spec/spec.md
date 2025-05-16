@@ -252,7 +252,7 @@ Diese Klassen sind für die korrekte Verwendung des Modells verpflichtend notwen
 #### 4.1.4 Klasse: foaf:Agent
 >| *URI der Klasse* | [`foaf:Agent`](http://xmlns.com/foaf/spec/#term_Agent) |
 >|:-----------------|:----------------------------------------------------|
->| Beschreibung     | Eine Stelle oder Person, welche mit Katalogen und Datens�tzen in unterschiedlichen Rollenauspr�gungen assoziiert ist. |
+>| Beschreibung     | Eine Stelle oder Person, welche mit Katalogen und Datensätzen in unterschiedlichen Rollenausprägungen assoziiert ist. |
 >| Weiterführende Dokumentationen | http://xmlns.com/foaf/spec/#term_Agent |
 
 | **Attribut** | **Wertebereich** | **Kardinalität** | **Verbindlichkeit** | **Beschreibung** |
