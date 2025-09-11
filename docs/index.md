@@ -1,5 +1,13 @@
 # HealthDCAT-AP.de
 
+> Das Projekt HealthDCAT-AP.de wurde im Rahmen der Post-COVID-Challenge des Dateninstitutes des Bundes von ]init[ und WIG2 durchgeführt.
+> 
+> Sie haben Interesse an Informationen zu HealthDCAT-AP.de?
+> 
+> Wir freuen uns über Ihre Nachricht an pf-healthdcat-ap@init.de!
+> 
+> Hier geht es direkt zum [Poster auf dem IOP Summit](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/IOP%20Summit_Poster_init_HealthDCATAPde.pdf)
+
 [Hier geht es direkt zum Bericht Stufe 1](/report_stage_1.md)
 
 [Hier geht es direkt zum Bericht Stufe 2](/report_stage_2.md)
@@ -8,13 +16,7 @@
 
 [Hier geht es direkt zum Spezifikationsdokument](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/docs/spec/spec.md)
 
-
 ![Logo HealthDCAT-AP.de](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/images/logo_small.png?raw=true)
-
-> Das Projekt HealthDCAT-AP.de wurde im Rahmen der Post-COVID-Challenge des Dateninstitutes des Bundes von ]init[ und WIG2 durchgeführt.
-> Sie haben Interesse an Informationen zu HealthDCAT-AP.de?
-> Wir freuen uns über Ihre Nachricht an pf-healthdcat-ap@init.de!
-> Hier geht es direkt zum [Poster auf dem IOP Summit](https://github.com/HealthDCAT-AP-de/healthdcat-ap.de/blob/main/IOP%20Summit_Poster_init_HealthDCATAPde.pdf)
 
 HealthDCAT-AP.de ist ein Vorhaben im Rahmen der Post-COVID-Challenge anlässlich der Gründung des Dateninstitutes des Bundes. Aktuell befinden wir uns in Stufe 2 der Challenge.
 Das Vorhaben erprobt einen innovativen Semantic-Web-Ansatz, um Metadaten aus verschiedenen Quellen im Gesundheitsbereich innerhalb eines Standards zusammenzuführen und interaktive Abfragen zu ermöglichen.
